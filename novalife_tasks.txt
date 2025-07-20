@@ -1,3 +1,10 @@
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/training_script.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/chat.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familysearch.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/system.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/projectMemories.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/check_common_crawl.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/check_dataset_presence.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/pentest.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/rpg_maker.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/detect.py
