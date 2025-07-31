@@ -8,3 +8,5 @@ https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/ch
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/pentest.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/rpg_maker.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/detect.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/hidden-codes.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familyfinder.py
