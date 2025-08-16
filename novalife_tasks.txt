@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/llama_console.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/training_script.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/chat.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familysearch.py
@@ -10,3 +11,4 @@ https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/rp
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/detect.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/hidden-codes.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familyfinder.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/se_circulator.py
