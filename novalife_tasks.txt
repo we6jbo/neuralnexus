@@ -12,3 +12,4 @@ https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/de
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/hidden-codes.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familyfinder.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/se_circulator.py
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/scan_review.py

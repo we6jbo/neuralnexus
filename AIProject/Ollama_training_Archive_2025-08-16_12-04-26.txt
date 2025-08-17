@@ -1,0 +1,90 @@
+What will you do when 
+
+What will you do when ---
+---
+What will you do when 
+
+What will you do when Hello there! I'm doing great, thanks for asking! What brings you here today?
+Hello there! I'm doing great, thanks for asking! What brings you here today?
+What will you do when 
+
+What will you do when ---
+---
+What will you do when 
+
+What will you do when Please enter your next message or 'exit' to conclude the conversation.
+Please enter your next message or 'exit' to conclude the conversation.
+What will you do when It looks like LLaMA is waiting for your input!
+It looks like LLaMA is waiting for your input!
+What will you do when 
+
+What will you do when Since the previous response was an invalid or free-form intent, you can try sending a new message to continue the conversation. You can respond with a question, statement, or even just a simple "hello"!
+Since the previous response was an invalid or free-form intent, you can try sending a new message to continue the conversation. You can respond with a question, statement, or even just a simple "hello"!
+What will you do when 
+
+What will you do when Type something in the box and hit Enter to send it to LLaMA:
+Type something in the box and hit Enter to send it to LLaMA:
+What will you do when 
+
+What will you do when (Note: remember that you can also type 'exit' to stop the conversation)
+(Note: remember that you can also type 'exit' to stop the conversation)
+What will you do when {
+{
+What will you do when 
+
+What will you do when   "turn": 47,
+  "turn": 47,
+What will you do when 
+
+What will you do when   "messages": [
+  "messages": [
+What will you do when 
+
+What will you do when     {
+    {
+What will you do when 
+
+What will you do when       "role": "bot",
+      "role": "bot",
+What will you do when 
+
+What will you do when       "content": "According to historical records, Lucy Ann Smith's birthdate is indeed February 15, 1795. Is there something specific you'd like to know about her life or legacy?"
+      "content": "According to historical records, Lucy Ann Smith's birthdate is indeed February 15, 1795. Is there something specific you'd like to know about her life or legacy?"
+What will you do when It looks like we've got a nice conversation going on here!
+It looks like we've got a nice conversation going on here!
+What will you do when 
+
+What will you do when According to the message, option 2 is correct: "The system or software detected the failure and automatically retried the backup process."
+According to the message, option 2 is correct: "The system or software detected the failure and automatically retried the backup process."
+What will you do when Let's start the conversation!
+Let's start the conversation!
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when {
+{
+What will you do when   "turn": 52,
+  "turn": 52,
+What will you do when   "messages": [
+  "messages": [
+What will you do when     {
+    {
+What will you do when       "role": "user",
+      "role": "user",
+What will you do when       "content": "LLMa is an abbreviation for Large Language Model Application. It's a type of AI designed to process and understand human language."
+      "content": "LLMa is an abbreviation for Large Language Model Application. It's a type of AI designed to process and understand human language."
+What will you do when     }
+    }
+What will you do when   ]
+  ]
+What will you do when }
+}
+What will you do when 
+
+What will you do when Please paste Llama's reply, then Enter:
+Please paste Llama's reply, then Enter:
+What will you do when Lucy Ann Smith was born on February 15, 1795.
+Lucy Ann Smith was born on February 15, 1795.
+What will you do when It seems like Llama is stuck in a loop, and I'm not sure what's causing it! Since the intent is being parsed as "invalid_or_freeform" every turn, I think trying something new would be a good idea.
+It seems like Llama is stuck in a loop, and I'm not sure what's causing it! Since the intent is being parsed as "invalid_or_freeform" every turn, I think trying something new would be a good idea.
