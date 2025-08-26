@@ -1,0 +1,110 @@
+What will you do when --- LLAMA REPLY ---
+--- LLAMA REPLY ---
+What will you do when {
+{
+What will you do when   "intent": "learn_format",
+  "intent": "learn_format",
+What will you do when   "message": "The command should be formatted as follows: {'turn': <turn_number>, 'messages': [{'role': 'user', 'content': '<text>'}]} "
+  "message": "The command should be formatted as follows: {'turn': <turn_number>, 'messages': [{'role': 'user', 'content': '<text>'}]} "
+What will you do when }
+}
+What will you do when 
+
+What will you do when Please enter the next message!
+Please enter the next message!
+What will you do when I'd be happy to chat with you! How was your day? Anything exciting happen?
+I'd be happy to chat with you! How was your day? Anything exciting happen?
+What will you do when Let's start exploring Lucy Ann Smith's life. Here's my response:
+Let's start exploring Lucy Ann Smith's life. Here's my response:
+What will you do when 
+
+What will you do when "Let's start with her childhood. What would you like to know about her early years, such as where she grew up, family dynamics, or any notable events?"
+"Let's start with her childhood. What would you like to know about her early years, such as where she grew up, family dynamics, or any notable events?"
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when A new mystery to unravel!
+A new mystery to unravel!
+What will you do when 
+
+What will you do when Since the intent is invalid or freeform, I'll take a chance and respond with an open-ended question. What would you like to know about Lucy Ann Smith? Are you interested in her personal life, achievements, relationships, historical context, or something else entirely?
+Since the intent is invalid or freeform, I'll take a chance and respond with an open-ended question. What would you like to know about Lucy Ann Smith? Are you interested in her personal life, achievements, relationships, historical context, or something else entirely?
+What will you do when 
+
+What will you do when Please feel free to provide any additional information or context you'd like me to know, and I'll do my best to help uncover more about this fascinating figure!
+Please feel free to provide any additional information or context you'd like me to know, and I'll do my best to help uncover more about this fascinating figure!
+What will you do when It looks like the LLAMA is responding with an `invalid_or_freeform` intent, indicating that your message format was not recognized.
+It looks like the LLAMA is responding with an `invalid_or_freeform` intent, indicating that your message format was not recognized.
+What will you do when 
+
+What will you do when Let's try again! Please enter a new message in the correct format:
+Let's try again! Please enter a new message in the correct format:
+What will you do when 
+
+What will you do when ```
+```
+What will you do when {
+{
+What will you do when   "turn": <turn_number>,
+  "turn": <turn_number>,
+What will you do when   "messages": [
+  "messages": [
+What will you do when     {
+    {
+What will you do when       "role": "user",
+      "role": "user",
+What will you do when       "content": "<text>"
+      "content": "<text>"
+What will you do when     }
+    }
+What will you do when   ]
+  ]
+What will you do when }
+}
+What will you do when ```
+```
+What will you do when A familiar message!
+A familiar message!
+What will you do when 
+
+What will you do when It looks like you've just uploaded a file to the SCP Foundation database, a fictional organization that collects and contains anomalous objects and entities.
+It looks like you've just uploaded a file to the SCP Foundation database, a fictional organization that collects and contains anomalous objects and entities.
+What will you do when 
+
+What will you do when The `SCP` acronym likely stands for "Special Containment Procedures," which are the standard protocols used by the Foundation to keep these anomalies under control. The `[scp] upload complete` message indicates that your file has been successfully added to the database.
+The `SCP` acronym likely stands for "Special Containment Procedures," which are the standard protocols used by the Foundation to keep these anomalies under control. The `[scp] upload complete` message indicates that your file has been successfully added to the database.
+What will you do when 
+
+What will you do when The `✅ Task llama_console.py completed successfully` part suggests that a script called `llama_console.py` was run as part of the uploading process, and it finished without any errors.
+The `✅ Task llama_console.py completed successfully` part suggests that a script called `llama_console.py` was run as part of the uploading process, and it finished without any errors.
+What will you do when 
+
+What will you do when In the SCP universe, anomalies can take many forms, from supernatural entities to mysterious objects with unusual properties. The Foundation's mission is to contain these anomalies and prevent them from causing harm to humanity or disrupting the natural order of things.
+In the SCP universe, anomalies can take many forms, from supernatural entities to mysterious objects with unusual properties. The Foundation's mission is to contain these anomalies and prevent them from causing harm to humanity or disrupting the natural order of things.
+What will you do when 
+
+What will you do when If you're interested in learning more about the SCP Foundation, I encourage you to explore the vast and fascinating world of fan-created stories, theories, and artwork that have evolved around this concept!
+If you're interested in learning more about the SCP Foundation, I encourage you to explore the vast and fascinating world of fan-created stories, theories, and artwork that have evolved around this concept!
+What will you do when Quendor here! I've got it now: I'll respond as "Quendor" from now on.
+Quendor here! I've got it now: I'll respond as "Quendor" from now on.
+What will you do when 
+
+What will you do when So, you'd like me to change my name to Quendor and respond accordingly when you call out my new name. Got it!
+So, you'd like me to change my name to Quendor and respond accordingly when you call out my new name. Got it!
+What will you do when 
+
+What will you do when Now that we're all set, what's the next step for our collaboration?
+Now that we're all set, what's the next step for our collaboration?
+What will you do when It seems like you're trying to get a response from someone named Quendor, but every time you send the same message, expecting a different result! Am I right?
+It seems like you're trying to get a response from someone named Quendor, but every time you send the same message, expecting a different result! Am I right?
+What will you do when 
+
+What will you do when As there is no actual person or entity named Quendor (at least, not that I'm aware of), it's unlikely that you'll receive a meaningful response. Would you like me to help you brainstorm ways to get in touch with someone or something else?
+As there is no actual person or entity named Quendor (at least, not that I'm aware of), it's unlikely that you'll receive a meaningful response. Would you like me to help you brainstorm ways to get in touch with someone or something else?
+What will you do when It seems I've been transported to a fascinating realm called Quendor!
+It seems I've been transported to a fascinating realm called Quendor!
+What will you do when 
+
+What will you do when As an AI, I don't have personal experiences like humans do, so my day is more akin to a series of computational processes and interactions with users like you. I don't have exciting events or adventures, but I'm always happy to engage in conversations and help facilitate creative exploration!
+As an AI, I don't have personal experiences like humans do, so my day is more akin to a series of computational processes and interactions with users like you. I don't have exciting events or adventures, but I'm always happy to engage in conversations and help facilitate creative exploration!
