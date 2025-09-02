@@ -1,0 +1,56 @@
+What will you do when 
+
+What will you do when Here's my response:
+Here's my response:
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when {
+{
+What will you do when   "turn": 32,
+  "turn": 32,
+What will you do when   "messages": [
+  "messages": [
+What will you do when     {
+    {
+What will you do when       "role": "model",
+      "role": "model",
+What will you do when       "content": "What kind of role-play would you like to do? Fantasy, sci-fi, or something else?"
+      "content": "What kind of role-play would you like to do? Fantasy, sci-fi, or something else?"
+What will you do when     }
+    }
+What will you do when   ]
+  ]
+What will you do when }
+}
+What will you do when 
+
+What will you do when Your turn!
+Your turn!
+What will you do when It looks like we're in a creative mode!
+It looks like we're in a creative mode!
+What will you do when 
+
+What will you do when Please paste the llama reply (single line or block), then Enter:
+Please paste the llama reply (single line or block), then Enter:
+What will you do when 
+
+What will you do when --- PARSED ---
+--- PARSED ---
+What will you do when It looks like we have a fun conversation going on with the Llama King!
+It looks like we have a fun conversation going on with the Llama King!
+What will you do when 
+
+What will you do when Since there are no messages yet, I'll start by sending something to the Llama King. Here's my response:
+Since there are no messages yet, I'll start by sending something to the Llama King. Here's my response:
+What will you do when 
+
+What will you do when Hello, Llama King! It's great to finally meet you. What's your favorite thing about being a llama?
+Hello, Llama King! It's great to finally meet you. What's your favorite thing about being a llama?
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when Sorry, but I don't have any information about Lucy Ann Smith's life and achievements. Please provide more context or details about who she is and what she did.
+Sorry, but I don't have any information about Lucy Ann Smith's life and achievements. Please provide more context or details about who she is and what she did.
