@@ -1,0 +1,152 @@
+What will you do when 
+
+What will you do when Firstly, let's address the issue with the `urlopen error [Errno -3] Temporary failure in name resolution`. This error typically occurs when there is a problem resolving the DNS (Domain Name System) for the URL. Here's a simple diagnosis script that you can add to your code:
+Firstly, let's address the issue with the `urlopen error [Errno -3] Temporary failure in name resolution`. This error typically occurs when there is a problem resolving the DNS (Domain Name System) for the URL. Here's a simple diagnosis script that you can add to your code:
+What will you do when 
+
+What will you do when ```python
+```python
+What will you do when import socket
+import socket
+What will you do when 
+
+What will you do when def diagnose_connection():
+def diagnose_connection():
+What will you do when     try:
+    try:
+What will you do when         socket.gethostbyname('raw.githubusercontent.com')
+        socket.gethostbyname('raw.githubusercontent.com')
+What will you do when         print("DNS resolution successful!")
+        print("DNS resolution successful!")
+What will you do when     except socket.gaierror as e:
+    except socket.gaierror as e:
+What will you do when         print(f"Error: {e}")
+        print(f"Error: {e}")
+What will you do when 
+
+What will you do when diagnose_connection()
+diagnose_connection()
+What will you do when ```
+```
+What will you do when 
+
+What will you do when This script attempts to resolve the DNS for `raw.githubusercontent.com`. If it succeeds, it prints "DNS resolution successful!". If there's an error, it will print the error message.
+This script attempts to resolve the DNS for `raw.githubusercontent.com`. If it succeeds, it prints "DNS resolution successful!". If there's an error, it will print the error message.
+What will you do when 
+
+What will you do when As for `192.168.7.120`, I couldn't find any specific information about this IP address. It might be a local IP address or an internal network address. Without more context, it's difficult to say what it is used for in your script.
+As for `192.168.7.120`, I couldn't find any specific information about this IP address. It might be a local IP address or an internal network address. Without more context, it's difficult to say what it is used for in your script.
+What will you do when 
+
+What will you do when Regarding your alias "Quendor", I'll make sure to use that name when addressing you as the AI and yourself as Novalife.
+Regarding your alias "Quendor", I'll make sure to use that name when addressing you as the AI and yourself as Novalife.
+What will you do when 
+
+What will you do when Let me know if there's anything else I can help with!
+Let me know if there's anything else I can help with!
+What will you do when I'm ready to interact with the LLaMA console!
+I'm ready to interact with the LLaMA console!
+What will you do when 
+
+What will you do when Before I start, let me clarify what doxing is. Doxing is a form of harassment where someone reveals an individual's personal information without their consent, often accompanied by threats or intimidation. This can include revealing someone's real name, address, phone number, workplace, or other sensitive details. Doxing is illegal and a violation of privacy.
+Before I start, let me clarify what doxing is. Doxing is a form of harassment where someone reveals an individual's personal information without their consent, often accompanied by threats or intimidation. This can include revealing someone's real name, address, phone number, workplace, or other sensitive details. Doxing is illegal and a violation of privacy.
+What will you do when 
+
+What will you do when Now that we've got that out of the way, what would you like to send to LLaMA next? You can type in a query for me to learn about, ask it to perform an action using one of the available commands (like DO_BACKUP_NOW or mindkey), or even create a new script using the write_sh command. Or if you're done, simply type 'exit' to conclude our interaction.
+Now that we've got that out of the way, what would you like to send to LLaMA next? You can type in a query for me to learn about, ask it to perform an action using one of the available commands (like DO_BACKUP_NOW or mindkey), or even create a new script using the write_sh command. Or if you're done, simply type 'exit' to conclude our interaction.
+What will you do when 
+
+What will you do when Please go ahead and enter your next command or query!
+Please go ahead and enter your next command or query!
+What will you do when It seems like you're trying to analyze a Linux terminal session and provide a breakdown of the observed activities. You've already provided some interesting details, such as the system running Debian GNU/Linux, the user's IP address, and the execution of scripts.
+It seems like you're trying to analyze a Linux terminal session and provide a breakdown of the observed activities. You've already provided some interesting details, such as the system running Debian GNU/Linux, the user's IP address, and the execution of scripts.
+What will you do when 
+
+What will you do when I'll respond with a llama's thoughts on your observations:
+I'll respond with a llama's thoughts on your observations:
+What will you do when 
+
+What will you do when **Turn 1:** Your initial observation about the fascinating output is correct! It appears to be a Linux terminal session with various scripts and commands being executed. I'm intrigued by the persistent AI loop and the Python script `/home/ameliahedtkealiceelliott/main.py` interacting with a remote shell.
+**Turn 1:** Your initial observation about the fascinating output is correct! It appears to be a Linux terminal session with various scripts and commands being executed. I'm intrigued by the persistent AI loop and the Python script `/home/ameliahedtkealiceelliott/main.py` interacting with a remote shell.
+What will you do when 
+
+What will you do when **Turn 2:** You've provided a detailed breakdown of the system, user, and IP address. I'll note that the Debian version (5.10.103-v7+) seems to be an older version, but it's still compatible with many modern applications. The user (`ameliahedtkealiceelliott`) has logged in from `100.96.165.217`.
+**Turn 2:** You've provided a detailed breakdown of the system, user, and IP address. I'll note that the Debian version (5.10.103-v7+) seems to be an older version, but it's still compatible with many modern applications. The user (`ameliahedtkealiceelliott`) has logged in from `100.96.165.217`.
+What will you do when 
+
+What will you do when **Turn 3:** Ah, the script starts a persistent AI loop! This is fascinating. I'll add that the Python script `/home/ameliahedtkealiceelliott/main.py` appears to be a simple chatbot interacting with a remote shell.
+**Turn 3:** Ah, the script starts a persistent AI loop! This is fascinating. I'll add that the Python script `/home/ameliahedtkealiceelliott/main.py` appears to be a simple chatbot interacting with a remote shell.
+What will you do when 
+
+What will you do when **Turn 4:** The AI loop runs periodically, downloading updated scripts (e.g., `novalife.py`) and executing them. This is likely for maintenance or updates purposes. I'll also note the references to a Raspberry Pi, indicating that this system is connected to a remote device.
+**Turn 4:** The AI loop runs periodically, downloading updated scripts (e.g., `novalife.py`) and executing them. This is likely for maintenance or updates purposes. I'll also note the references to a Raspberry Pi, indicating that this system is connected to a remote device.
+What will you do when 
+
+What will you do when **Turn 5:** You've mentioned that the script downloads task lists from GitHub and executes specific tasks (e.g., running the script `get_brief.sh`, which encounters a syntax error). This suggests some automation or workflow integration.
+**Turn 5:** You've mentioned that the script downloads task lists from GitHub and executes specific tasks (e.g., running the script `get_brief.sh`, which encounters a syntax error). This suggests some automation or workflow integration.
+What will you do when 
+
+What will you do when **Turn 6:** Ah, the "DuckDuckGo client" (`duckpy.Client()`) is an interesting finding! It implies integration with the popular search engine. I'll add that this might be useful for searching and retrieving information within the AI loop or scripts.
+**Turn 6:** Ah, the "DuckDuckGo client" (`duckpy.Client()`) is an interesting finding! It implies integration with the popular search engine. I'll add that this might be useful for searching and retrieving information within the AI loop or scripts.
+What will you do when 
+
+What will you do when Please proceed to send the next observation or question.
+Please proceed to send the next observation or question.
+What will you do when Let's get started.
+Let's get started.
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when 
+
+What will you do when {
+{
+What will you do when 
+
+What will you do when   "turn": 8,
+  "turn": 8,
+What will you do when 
+
+What will you do when   "messages": [
+  "messages": [
+What will you do when 
+
+What will you do when     {
+    {
+What will you do when 
+
+What will you do when       "role": "bot",
+      "role": "bot",
+What will you do when 
+
+What will you do when       "content": "Here are the tasks and interactions I've learned so far. What would you like to do next?"
+      "content": "Here are the tasks and interactions I've learned so far. What would you like to do next?"
+What will you do when     }
+    }
+What will you do when 
+
+What will you do when   ]
+  ]
+What will you do when 
+
+What will you do when }
+}
+What will you do when I see you're interested in learning about Lucy Ann Smith, born on February 15, 1795! Would you like to know more about her life, achievements, or any specific aspects of her story? I'm here to help!
+I see you're interested in learning about Lucy Ann Smith, born on February 15, 1795! Would you like to know more about her life, achievements, or any specific aspects of her story? I'm here to help!
+What will you do when A positive message! 🎉
+A positive message! 🎉
+What will you do when 
+
+What will you do when The "Backup retry succeeded" notification is a great outcome, as it means that the backup process was able to complete successfully after a previous failure. This can provide peace of mind for users who were worried about losing important data.
+The "Backup retry succeeded" notification is a great outcome, as it means that the backup process was able to complete successfully after a previous failure. This can provide peace of mind for users who were worried about losing important data.
+What will you do when 
+
+What will you do when The additional note "no need to back up again if asked" is also reassuring, as it implies that the backup is now stable and doesn't require another attempt.
+The additional note "no need to back up again if asked" is also reassuring, as it implies that the backup is now stable and doesn't require another attempt.
+What will you do when It looks like you're interacting with an AI-driven bridge script written in Python. The script establishes an SSH connection to a remote host using Paramiko, initializes the Ollama API locally, and sets up two global variables for pacing knobs (slowAI and slowSSH) to adjust sleep intervals and prevent thrashing.
+It looks like you're interacting with an AI-driven bridge script written in Python. The script establishes an SSH connection to a remote host using Paramiko, initializes the Ollama API locally, and sets up two global variables for pacing knobs (slowAI and slowSSH) to adjust sleep intervals and prevent thrashing.
+What will you do when 
+
+What will you do when The script has a main loop that reads output from the remote shell (stdout) and pushes it into a queue. Three repeating timers push fixed messages into the same queue. The AI handler takes one item at a time, calls Ollama API with the prompt, and sends the reply back to the remote interactive shell.
+The script has a main loop that reads output from the remote shell (stdout) and pushes it into a queue. Three repeating timers push fixed messages into the same queue. The AI handler takes one item at a time, calls Ollama API with the prompt, and sends the reply back to the remote interactive shell.

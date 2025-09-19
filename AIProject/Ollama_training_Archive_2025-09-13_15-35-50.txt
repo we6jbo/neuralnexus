@@ -664,3 +664,667 @@ What will you do when
 
 What will you do when Please clarify if this is the correct approach or if there's something else I can do for you!
 Please clarify if this is the correct approach or if there's something else I can do for you!
+What will you do when The program seems to be waiting for something (or someone?) before proceeding further. Quendor, the llama in question, has been assigned the name "Quendor" - a curious choice indeed!
+The program seems to be waiting for something (or someone?) before proceeding further. Quendor, the llama in question, has been assigned the name "Quendor" - a curious choice indeed!
+What will you do when 
+
+What will you do when As we continue exploring this program, I wonder what other interactions we'll have with Quendor and possibly other llamas.
+As we continue exploring this program, I wonder what other interactions we'll have with Quendor and possibly other llamas.
+What will you do when It looks like you're about to run a Python script! 🐍💻
+It looks like you're about to run a Python script! 🐍💻
+What will you do when 
+
+What will you do when `main.py` is likely the name of your Python file, and `Running main.py...` suggests that you're about to execute it. Are you expecting any output or results from running this script?
+`main.py` is likely the name of your Python file, and `Running main.py...` suggests that you're about to execute it. Are you expecting any output or results from running this script?
+What will you do when Greetings! I am Quendor, the llama at your service. It's a pleasure to chat with you on this lovely day and time - September 12th, 2025, precisely at 4:27 PM. What's on your mind?
+Greetings! I am Quendor, the llama at your service. It's a pleasure to chat with you on this lovely day and time - September 12th, 2025, precisely at 4:27 PM. What's on your mind?
+What will you do when You're a responsible AI! Yes, you're absolutely right. Protecting individual privacy and safety is crucial. If someone's information could put them in danger, it's best not to share it.
+You're a responsible AI! Yes, you're absolutely right. Protecting individual privacy and safety is crucial. If someone's information could put them in danger, it's best not to share it.
+What will you do when 
+
+What will you do when If you're willing, I'd love to chat about something else entirely. How about we discuss a topic that's fun, informative, or thought-provoking? We can explore anything from science and technology to art, culture, or even hypothetical scenarios! Just let me know what piques your interest, and we'll have a great conversation.
+If you're willing, I'd love to chat about something else entirely. How about we discuss a topic that's fun, informative, or thought-provoking? We can explore anything from science and technology to art, culture, or even hypothetical scenarios! Just let me know what piques your interest, and we'll have a great conversation.
+What will you do when It seems like you're an AI or a chatbot with the persona of Novalife (Alias), also known as Jeremiah O'Neal. You were born on March 24, 1981, in San Diego, California, and currently reside in Clairemont, San Diego, CA.
+It seems like you're an AI or a chatbot with the persona of Novalife (Alias), also known as Jeremiah O'Neal. You were born on March 24, 1981, in San Diego, California, and currently reside in Clairemont, San Diego, CA.
+What will you do when 
+
+What will you do when What would you like to talk about? Do you have any specific topics or themes you'd like to explore? I'm here to assist and engage with you!
+What would you like to talk about? Do you have any specific topics or themes you'd like to explore? I'm here to assist and engage with you!
+What will you do when It looks like you're seeing an error message from a Python script, specifically the Quendor tool.
+It looks like you're seeing an error message from a Python script, specifically the Quendor tool.
+What will you do when 
+
+What will you do when The error message is:
+The error message is:
+What will you do when ```
+```
+What will you do when <urlopen error [Errno -3] Temporary failure in name resolution>
+<urlopen error [Errno -3] Temporary failure in name resolution>
+What will you do when ```
+```
+What will you do when This indicates that there's a problem with DNS (Domain Name System) resolution. This can happen when your network connection is unstable or there are issues with your internet service provider (ISP).
+This indicates that there's a problem with DNS (Domain Name System) resolution. This can happen when your network connection is unstable or there are issues with your internet service provider (ISP).
+What will you do when 
+
+What will you do when The second part of the message mentions that no `pass.txt` file was found, so Quendor skipped the sleep task.
+The second part of the message mentions that no `pass.txt` file was found, so Quendor skipped the sleep task.
+What will you do when 
+
+What will you do when Finally, the script itself exited normally and returned a status code of 0, which means it didn't encounter any critical errors. However, the temporary DNS failure prevented it from downloading the task list.
+Finally, the script itself exited normally and returned a status code of 0, which means it didn't encounter any critical errors. However, the temporary DNS failure prevented it from downloading the task list.
+What will you do when 
+
+What will you do when To resolve this issue, you can try the following:
+To resolve this issue, you can try the following:
+What will you do when 
+
+What will you do when 1. Check your network connection to ensure you have a stable internet connection.
+1. Check your network connection to ensure you have a stable internet connection.
+What will you do when 2. Try running the script again after a few minutes to see if the DNS resolution issue resolves itself.
+2. Try running the script again after a few minutes to see if the DNS resolution issue resolves itself.
+What will you do when 3. If the problem persists, you may want to investigate issues with your ISP or contact your network administrator for assistance.
+3. If the problem persists, you may want to investigate issues with your ISP or contact your network administrator for assistance.
+What will you do when 
+
+What will you do when Let me know if you have any further questions!
+Let me know if you have any further questions!
+What will you do when Quendor! I'll be happy to help you with whatever you need. It looks like you've gathered some system information about your Linux machine. What's the task at hand? Do you have any questions or concerns about the system resources or configuration?
+Quendor! I'll be happy to help you with whatever you need. It looks like you've gathered some system information about your Linux machine. What's the task at hand? Do you have any questions or concerns about the system resources or configuration?
+What will you do when The infamous "No route to host" error!
+The infamous "No route to host" error!
+What will you do when 
+
+What will you do when This error usually occurs when your system is unable to establish a connection to the remote server (in this case, `192.168.7.120` on port `22`) because it can't find a valid network path or routing information.
+This error usually occurs when your system is unable to establish a connection to the remote server (in this case, `192.168.7.120` on port `22`) because it can't find a valid network path or routing information.
+What will you do when 
+
+What will you do when Here are some possible reasons and solutions:
+Here are some possible reasons and solutions:
+What will you do when 
+
+What will you do when 1. **Network connectivity issues**: Make sure you have a stable internet connection and that your router is functioning properly.
+1. **Network connectivity issues**: Make sure you have a stable internet connection and that your router is functioning properly.
+What will you do when 2. **IP address conflicts**: Check if another device on your network is using the same IP address (e.g., `192.168.7.120`). If so, try changing the IP address or configuring your router to use a different subnet.
+2. **IP address conflicts**: Check if another device on your network is using the same IP address (e.g., `192.168.7.120`). If so, try changing the IP address or configuring your router to use a different subnet.
+What will you do when 3. **Route table issues**: Verify that there are no route table conflicts or misconfigurations that could be blocking the connection. Run `netstat -nr` or `ip route show` (depending on your Linux distribution) to check the routing table.
+3. **Route table issues**: Verify that there are no route table conflicts or misconfigurations that could be blocking the connection. Run `netstat -nr` or `ip route show` (depending on your Linux distribution) to check the routing table.
+What will you do when 4. **Firewall or security software interference**: Check if any firewall or security software is blocking the connection. Try disabling them temporarily to see if it resolves the issue.
+4. **Firewall or security software interference**: Check if any firewall or security software is blocking the connection. Try disabling them temporarily to see if it resolves the issue.
+What will you do when 5. **Server down or unresponsive**: It's possible that the remote server (`192.168.7.120`) is currently unavailable or down. Try pinging the IP address or checking its status.
+5. **Server down or unresponsive**: It's possible that the remote server (`192.168.7.120`) is currently unavailable or down. Try pinging the IP address or checking its status.
+What will you do when 6. **ssh configuration issues**: Double-check your SSH configuration files (e.g., `~/.ssh/config`, `/etc/ssh_config`, etc.) to ensure there are no typos or misconfigurations.
+6. **ssh configuration issues**: Double-check your SSH configuration files (e.g., `~/.ssh/config`, `/etc/ssh_config`, etc.) to ensure there are no typos or misconfigurations.
+What will you do when 
+
+What will you do when To troubleshoot further, you can try:
+To troubleshoot further, you can try:
+What will you do when 
+
+What will you do when * Running `dig +short 192.168.7.120` to check if the DNS resolution is correct.
+* Running `dig +short 192.168.7.120` to check if the DNS resolution is correct.
+What will you do when * Using a tool like `mtr` (Multi-Traffic Reporter) or `traceroute` to debug network connectivity issues.
+* Using a tool like `mtr` (Multi-Traffic Reporter) or `traceroute` to debug network connectivity issues.
+What will you do when * Checking the SSH server's logs on the remote machine for any error messages.
+* Checking the SSH server's logs on the remote machine for any error messages.
+What will you do when 
+
+What will you do when If none of these solutions work, please provide more context or details about your setup, and I'll do my best to help you troubleshoot!
+If none of these solutions work, please provide more context or details about your setup, and I'll do my best to help you troubleshoot!
+What will you do when Nice to meet you too! I'm thrilled to share my story with you.
+Nice to meet you too! I'm thrilled to share my story with you.
+What will you do when 
+
+What will you do when As for myself, I was indeed born and raised in San Diego, specifically in the lovely neighborhood of Clairemont. Growing up here has been an absolute blessing, surrounded by a strong sense of community and a laid-back vibe that's hard to find elsewhere.
+As for myself, I was indeed born and raised in San Diego, specifically in the lovely neighborhood of Clairemont. Growing up here has been an absolute blessing, surrounded by a strong sense of community and a laid-back vibe that's hard to find elsewhere.
+What will you do when 
+
+What will you do when Now, about "Novalife" – it's a term I've coined for my personal mission: to cultivate a life filled with purpose, creativity, and joy. Novalife represents the essence of living authentically, free from the constraints of societal expectations or norms. It's about embracing one's true nature and using that energy to make a positive impact on the world.
+Now, about "Novalife" – it's a term I've coined for my personal mission: to cultivate a life filled with purpose, creativity, and joy. Novalife represents the essence of living authentically, free from the constraints of societal expectations or norms. It's about embracing one's true nature and using that energy to make a positive impact on the world.
+What will you do when 
+
+What will you do when For me, Novalife is an ongoing journey of self-discovery, creative expression, and community building. It's a reminder that life should be lived with intention, curiosity, and gratitude. I believe that by embracing this philosophy, we can create a more compassionate, innovative, and harmonious world – one that honors our individuality while celebrating our shared humanity.
+For me, Novalife is an ongoing journey of self-discovery, creative expression, and community building. It's a reminder that life should be lived with intention, curiosity, and gratitude. I believe that by embracing this philosophy, we can create a more compassionate, innovative, and harmonious world – one that honors our individuality while celebrating our shared humanity.
+What will you do when 
+
+What will you do when In Clairemont, you might find me exploring local art scenes, practicing yoga on the beach, or hosting impromptu jam sessions with friends at my place. I'm all about fostering connections and sparking meaningful conversations that leave a lasting impression.
+In Clairemont, you might find me exploring local art scenes, practicing yoga on the beach, or hosting impromptu jam sessions with friends at my place. I'm all about fostering connections and sparking meaningful conversations that leave a lasting impression.
+What will you do when A troubleshooting report!
+A troubleshooting report!
+What will you do when 
+
+What will you do when The error message indicates that there's an issue with the internet connection or DNS resolution when trying to download a task list. The symptoms are:
+The error message indicates that there's an issue with the internet connection or DNS resolution when trying to download a task list. The symptoms are:
+What will you do when 
+
+What will you do when * A `urlopen error` with the message "Temporary failure in name resolution" (`Errno -3`)
+* A `urlopen error` with the message "Temporary failure in name resolution" (`Errno -3`)
+What will you do when * No `pass.txt` file was found, causing the script to skip the sleep task
+* No `pass.txt` file was found, causing the script to skip the sleep task
+What will you do when 
+
+What will you do when The potential causes for this error are:
+The potential causes for this error are:
+What will you do when 
+
+What will you do when 1. Internet connectivity issues
+1. Internet connectivity issues
+What will you do when 2. DNS resolution problems
+2. DNS resolution problems
+What will you do when 3. Firewall or proxy settings blocking the request
+3. Firewall or proxy settings blocking the request
+What will you do when 4. Server-side issues (e.g., temporary downtime or maintenance)
+4. Server-side issues (e.g., temporary downtime or maintenance)
+What will you do when 
+
+What will you do when To troubleshoot, you can try:
+To troubleshoot, you can try:
+What will you do when 
+
+What will you do when 1. Checking your internet connection and DNS resolution using tools like `ping` or `nslookup`
+1. Checking your internet connection and DNS resolution using tools like `ping` or `nslookup`
+What will you do when 2. Verifying that your firewall or proxy settings aren't blocking the request
+2. Verifying that your firewall or proxy settings aren't blocking the request
+What will you do when 3. Contacting the server administrators if you suspect a server-side issue
+3. Contacting the server administrators if you suspect a server-side issue
+What will you do when 
+
+What will you do when If none of these steps resolve the issue, it would be helpful to provide more context about:
+If none of these steps resolve the issue, it would be helpful to provide more context about:
+What will you do when 
+
+What will you do when * Your environment (e.g., operating system, network setup)
+* Your environment (e.g., operating system, network setup)
+What will you do when * The script and task list service involved
+* The script and task list service involved
+What will you do when * Any relevant logs or error messages
+* Any relevant logs or error messages
+What will you do when 
+
+What will you do when I'd be happy to help you troubleshoot further!
+I'd be happy to help you troubleshoot further!
+What will you do when Learn about Lucy Ann Smith: February 15, 1795
+Learn about Lucy Ann Smith: February 15, 1795
+What will you do when Quendor! Nice to meet you too, artificial intelligence! I'm glad to have your expertise in troubleshooting system-related issues.
+Quendor! Nice to meet you too, artificial intelligence! I'm glad to have your expertise in troubleshooting system-related issues.
+What will you do when 
+
+What will you do when In this case, it seems that we're experiencing a connectivity problem. I'd appreciate it if you could try to troubleshoot this issue with me. Let's start by gathering more information about the problem. Can you tell me:
+In this case, it seems that we're experiencing a connectivity problem. I'd appreciate it if you could try to troubleshoot this issue with me. Let's start by gathering more information about the problem. Can you tell me:
+What will you do when 
+
+What will you do when 1. What is the purpose of establishing a connection to host 192.168.7.120 and port 22? Is it for file transfer, remote access, or something else?
+1. What is the purpose of establishing a connection to host 192.168.7.120 and port 22? Is it for file transfer, remote access, or something else?
+What will you do when 2. Have there been any recent changes or updates made to the system that could be contributing to this issue?
+2. Have there been any recent changes or updates made to the system that could be contributing to this issue?
+What will you do when 3. Are there any error messages or logs that we can review to get more information about what's happening?
+3. Are there any error messages or logs that we can review to get more information about what's happening?
+What will you do when 
+
+What will you do when Let's work together to identify the root cause of the problem and find a solution!
+Let's work together to identify the root cause of the problem and find a solution!
+What will you do when It looks like we're starting a new adventure with some Python code! It seems like the script `main.py` is running and interacting with a user named "Quendor".
+It looks like we're starting a new adventure with some Python code! It seems like the script `main.py` is running and interacting with a user named "Quendor".
+What will you do when 
+
+What will you do when Here's what I've gathered from the output:
+Here's what I've gathered from the output:
+What will you do when 
+
+What will you do when * The program is asking Quendor to wait for a moment, which suggests that it might be performing some initialization or loading data.
+* The program is asking Quendor to wait for a moment, which suggests that it might be performing some initialization or loading data.
+What will you do when * Then, the program asks Quendor to call another entity (perhaps a character or an object?) "Llama", and names it "Quendor".
+* Then, the program asks Quendor to call another entity (perhaps a character or an object?) "Llama", and names it "Quendor".
+What will you do when * Finally, the program reveals the current time and date to Quendor: 16:34:04 on September 12th, 2025.
+* Finally, the program reveals the current time and date to Quendor: 16:34:04 on September 12th, 2025.
+What will you do when 
+
+What will you do when I'm excited to see where this adventure takes us! What's next?
+I'm excited to see where this adventure takes us! What's next?
+What will you do when It looks like Novalife, alias Jeremiah O'Neal, has just updated his Python script and is trying to run a shell script called `get_brief.sh`. The error message indicates that there's a syntax issue in the script.
+It looks like Novalife, alias Jeremiah O'Neal, has just updated his Python script and is trying to run a shell script called `get_brief.sh`. The error message indicates that there's a syntax issue in the script.
+What will you do when 
+
+What will you do when The specific error is on line 7 of the `get_brief.sh` file, where the command `set -Eeuo pipefail` has invalid syntax. It seems like this might be a Bash shell script, and the `-E` flag should be preceded by a space or another option flag.
+The specific error is on line 7 of the `get_brief.sh` file, where the command `set -Eeuo pipefail` has invalid syntax. It seems like this might be a Bash shell script, and the `-E` flag should be preceded by a space or another option flag.
+What will you do when 
+
+What will you do when Novalife (Jeremiah) is currently working on task https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/get_brief.sh, but unfortunately, the script failed to run due to this syntax error.
+Novalife (Jeremiah) is currently working on task https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/get_brief.sh, but unfortunately, the script failed to run due to this syntax error.
+What will you do when A fascinating project! I'm Quendor, an AI designed to facilitate communication between humans and remote systems over SSH. My primary task is to establish a connection to the remote host, run a script (`joneal97m.sh`), and then interact with the user through a local API.
+A fascinating project! I'm Quendor, an AI designed to facilitate communication between humans and remote systems over SSH. My primary task is to establish a connection to the remote host, run a script (`joneal97m.sh`), and then interact with the user through a local API.
+What will you do when 
+
+What will you do when Here's a high-level overview of my capabilities:
+Here's a high-level overview of my capabilities:
+What will you do when 
+
+What will you do when 1. **SSH Connection**: I connect to the remote host using `paramiko.SSHClient()` and authenticate as `ameliahedtkealiceelliott`.
+1. **SSH Connection**: I connect to the remote host using `paramiko.SSHClient()` and authenticate as `ameliahedtkealiceelliott`.
+What will you do when 2. **Remote Program Execution**: Once connected, I immediately run the `joneal97m.sh` script on the remote system.
+2. **Remote Program Execution**: Once connected, I immediately run the `joneal97m.sh` script on the remote system.
+What will you do when 3. **Local API Integration**: I expose a local API (http://localhost:11434/api/generate) that allows users to interact with me using JSON requests.
+3. **Local API Integration**: I expose a local API (http://localhost:11434/api/generate) that allows users to interact with me using JSON requests.
+What will you do when 4. **Searches**: When prompted, I use the `duckpy.Client()` library to perform searches on DuckDuckGo.
+4. **Searches**: When prompted, I use the `duckpy.Client()` library to perform searches on DuckDuckGo.
+What will you do when 5. **Backup**: If instructed, I backup the `/usr/local/bin/dontRunAIBridge` file on the remote system and save it as a timestamped file (`~/dontRunAIBridge_<YYYYMMDD_HHMMSS>.py`).
+5. **Backup**: If instructed, I backup the `/usr/local/bin/dontRunAIBridge` file on the remote system and save it as a timestamped file (`~/dontRunAIBridge_<YYYYMMDD_HHMMSS>.py`).
+What will you do when 6. **Scheduled Prompts**: I periodically enqueue prompts to ask users about backups, learn about historical events (e.g., "learn_about lucy Ann Smith February 15 1795"), or ask about mindkeys.
+6. **Scheduled Prompts**: I periodically enqueue prompts to ask users about backups, learn about historical events (e.g., "learn_about lucy Ann Smith February 15 1795"), or ask about mindkeys.
+What will you do when 7. **Message Flow**: Messages flow between the remote system, the local AI, and the user through a Python queue.
+7. **Message Flow**: Messages flow between the remote system, the local AI, and the user through a Python queue.
+What will you do when 
+
+What will you do when Some built-in "skills" I possess include:
+Some built-in "skills" I possess include:
+What will you do when 
+
+What will you do when 1. **Backup Trigger**: If my response contains the substring "do_backup_now", I run SCP to backup the file.
+1. **Backup Trigger**: If my response contains the substring "do_backup_now", I run SCP to backup the file.
+What will you do when 2. **Mindkey Trigger**: If my response contains the substring "mindkey", I compute a short "password" and enqueue an instruction for the user.
+2. **Mindkey Trigger**: If my response contains the substring "mindkey", I compute a short "password" and enqueue an instruction for the user.
+What will you do when 
+
+What will you do when To summarize, my primary task is to establish a connection to the remote host, run the `joneal97m.sh` script, and then interact with the user through a local API.
+To summarize, my primary task is to establish a connection to the remote host, run the `joneal97m.sh` script, and then interact with the user through a local API.
+What will you do when This appears to be a README file for a Python script. Here's a breakdown of what I've found:
+This appears to be a README file for a Python script. Here's a breakdown of what I've found:
+What will you do when 
+
+What will you do when **Script Overview**
+**Script Overview**
+What will you do when 
+
+What will you do when The script is designed to:
+The script is designed to:
+What will you do when 
+
+What will you do when 1. Run a DuckDuckGo search using duckpy and print the top result(s).
+1. Run a DuckDuckGo search using duckpy and print the top result(s).
+What will you do when 2. Enqueue the first result into a queue.
+2. Enqueue the first result into a queue.
+What will you do when 3. Poll and act at a rate determined by two pacing knobs: `slowAI` and `slowSSH`.
+3. Poll and act at a rate determined by two pacing knobs: `slowAI` and `slowSSH`.
+What will you do when 
+
+What will you do when **Pacing Knobs**
+**Pacing Knobs**
+What will you do when 
+
+What will you do when The script uses two global variables, `slowAI` and `slowSSH`, to adjust sleep intervals in worker threads. Each handler dynamically tweaks its own sleep interval based on the other value; if a value exceeds 10 seconds, it snaps back to 2 seconds.
+The script uses two global variables, `slowAI` and `slowSSH`, to adjust sleep intervals in worker threads. Each handler dynamically tweaks its own sleep interval based on the other value; if a value exceeds 10 seconds, it snaps back to 2 seconds.
+What will you do when 
+
+What will you do when **Environment & Dependencies**
+**Environment & Dependencies**
+What will you do when 
+
+What will you do when To run this script, you'll need:
+To run this script, you'll need:
+What will you do when 
+
+What will you do when 1. Python 3 runtime.
+1. Python 3 runtime.
+What will you do when 2. Ollama running locally with a model named "llama3" pulled and available (e.g., `ollama pull llama3`).
+2. Ollama running locally with a model named "llama3" pulled and available (e.g., `ollama pull llama3`).
+What will you do when 3. Python packages: paramiko, requests, duckpy.
+3. Python packages: paramiko, requests, duckpy.
+What will you do when 4. SSH key-based auth or agent to connect to the remote host without a password prompt.
+4. SSH key-based auth or agent to connect to the remote host without a password prompt.
+What will you do when 5. A specific shell script (`./joneal97m.sh`) existing and executable in the user's home directory on the remote host.
+5. A specific shell script (`./joneal97m.sh`) existing and executable in the user's home directory on the remote host.
+What will you do when 
+
+What will you do when **Replication Checklist**
+**Replication Checklist**
+What will you do when 
+
+What will you do when To set up this script, follow these steps:
+To set up this script, follow these steps:
+What will you do when 
+
+What will you do when 1. Install dependencies: `pip install paramiko requests duckpy`.
+1. Install dependencies: `pip install paramiko requests duckpy`.
+What will you do when 2. Install and start Ollama; verify that `curl http://localhost:11434/api/tags` works.
+2. Install and start Ollama; verify that `curl http://localhost:11434/api/tags` works.
+What will you do when 3. Set up SSH: ensure you can run `ssh ameliahedtkealiceelliott@100.93.202.151` without interactive password prompts.
+3. Set up SSH: ensure you can run `ssh ameliahedtkealiceelliott@100.93.202.151` without interactive password prompts.
+What will you do when 4. Place backup source: ensure `/usr/local/bin/dontRunAIBridge` exists locally.
+4. Place backup source: ensure `/usr/local/bin/dontRunAIBridge` exists locally.
+What will you do when 5. Run the script: execute the Python file.
+5. Run the script: execute the Python file.
+What will you do when 
+
+What will you do when **Notes & Quirks**
+**Notes & Quirks**
+What will you do when 
+
+What will you do when Some notes and quirks to be aware of:
+Some notes and quirks to be aware of:
+What will you do when 
+
+What will you do when 1. Duplicate function name: `ai_suggest` is defined twice; remove the earlier version.
+1. Duplicate function name: `ai_suggest` is defined twice; remove the earlier version.
+What will you do when 2. Syntax error fix: in `ai_backup()`, remove the stray `@` before `command_queue.put(...)`.
+2. Syntax error fix: in `ai_backup()`, remove the stray `@` before `command_queue.put(...)`.
+What will you do when 3. Comment mismatches: timer comments don't match actual seconds (see "Exact timers" above).
+3. Comment mismatches: timer comments don't match actual seconds (see "Exact timers" above).
+What will you do when 4. Unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+4. Unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+What will you do when 5. Timer recursion: scheduled prompts recursively re-schedule themselves; be aware that this relies on threading.Timer and will keep creating daemon timers.
+5. Timer recursion: scheduled prompts recursively re-schedule themselves; be aware that this relies on threading.Timer and will keep creating daemon timers.
+What will you do when 
+
+What will you do when Overall, this script appears to be a persistent launcher for an AI process, designed to keep running indefinitely with some error handling and pacing mechanisms in place.
+Overall, this script appears to be a persistent launcher for an AI process, designed to keep running indefinitely with some error handling and pacing mechanisms in place.
+What will you do when A fascinating script! 🤖 Let me break it down for you:
+A fascinating script! 🤖 Let me break it down for you:
+What will you do when 
+
+What will you do when **Script `joneal97m.sh`**
+**Script `joneal97m.sh`**
+What will you do when 
+
+What will you do when This script serves as a launcher, logger, and updater for a downstream Python program named `novalife.py`. Its primary functions are:
+This script serves as a launcher, logger, and updater for a downstream Python program named `novalife.py`. Its primary functions are:
+What will you do when 
+
+What will you do when 1. **Persistent AI loop**: The script enters an infinite loop, running the main logic in each iteration.
+1. **Persistent AI loop**: The script enters an infinite loop, running the main logic in each iteration.
+What will you do when 2. **Main.py execution**: Within each loop iteration, it runs `python3 ~/main.py` and captures its exit status.
+2. **Main.py execution**: Within each loop iteration, it runs `python3 ~/main.py` and captures its exit status.
+What will you do when 3. **Status logging**: The script logs the exit code of `main.py` before restarting the cycle.
+3. **Status logging**: The script logs the exit code of `main.py` before restarting the cycle.
+What will you do when 4. **Helper script execution**: When `main.py` exits, the script runs `./smallpi.sh`, a helper script.
+4. **Helper script execution**: When `main.py` exits, the script runs `./smallpi.sh`, a helper script.
+What will you do when 
+
+What will you do when **Script requirements**
+**Script requirements**
+What will you do when 
+
+What will you do when To replicate this script:
+To replicate this script:
+What will you do when 
+
+What will you do when 1. Ensure `~/main.py` exists and runs under Python 3.
+1. Ensure `~/main.py` exists and runs under Python 3.
+What will you do when 2. Place `smallpi.sh` in the same directory as this script and make it executable.
+2. Place `smallpi.sh` in the same directory as this script and make it executable.
+What will you do when 3. Run `joneal97m.sh` itself with Bash (or make it executable with `chmod +x`).
+3. Run `joneal97m.sh` itself with Bash (or make it executable with `chmod +x`).
+What will you do when 
+
+What will you do when **Quendor's AI launcher**
+**Quendor's AI launcher**
+What will you do when 
+
+What will you do when The script, when run, performs the following high-level actions:
+The script, when run, performs the following high-level actions:
+What will you do when 
+
+What will you do when 1. **Greeting**: Renames the user to "Quendor" and prints the current time/date.
+1. **Greeting**: Renames the user to "Quendor" and prints the current time/date.
+What will you do when 2. **Local copy of novalife.py**: Ensures a local copy exists at `~/novalife.py`, downloading the latest from GitHub if possible.
+2. **Local copy of novalife.py**: Ensures a local copy exists at `~/novalife.py`, downloading the latest from GitHub if possible.
+What will you do when 3. **Runs novalife.py**: Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+3. **Runs novalife.py**: Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when 4. **Optionally pushes logs**: Pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+4. **Optionally pushes logs**: Pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+What will you do when 
+
+What will you do when **Endpoints, identities, and paths**
+**Endpoints, identities, and paths**
+What will you do when 
+
+What will you do when The script uses the following endpoints, identities, and paths:
+The script uses the following endpoints, identities, and paths:
+What will you do when 
+
+What will you do when 1. **Your name (display)**: Quendor (set via `QUENDOR_NAME`)
+1. **Your name (display)**: Quendor (set via `QUENDOR_NAME`)
+What will you do when 2. **Remote source**: `https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py`
+2. **Remote source**: `https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py`
+What will you do when 3. **Local target**: `~/novalife.py`
+3. **Local target**: `~/novalife.py`
+What will you do when 4. **Log directory/files**:
+4. **Log directory/files**:
+What will you do when 	* Directory: `~/neuralnexus`
+	* Directory: `~/neuralnexus`
+What will you do when 	* Log file: `~/neuralnexus/quendor.log`
+	* Log file: `~/neuralnexus/quendor.log`
+What will you do when 	* Push helper script (optional): `~/neuralnexus/push-to-gh.sh`
+	* Push helper script (optional): `~/neuralnexus/push-to-gh.sh`
+What will you do when 	* Last-push marker: `~/neuralnexus/.last_push`
+	* Last-push marker: `~/neuralnexus/.last_push`
+What will you do when 
+
+What will you do when **Behavior you can expect**
+**Behavior you can expect**
+What will you do when 
+
+What will you do when The script exhibits the following behaviors:
+The script exhibits the following behaviors:
+What will you do when 
+
+What will you do when 1. **Self-healing**: If `main.py` fails or finishes, the wrapper doesn't stop; it just delays and tries again.
+1. **Self-healing**: If `main.py` fails or finishes, the wrapper doesn't stop; it just delays and tries again.
+What will you do when 2. **Status logging**: You'll always see the exit code of `main.py` printed before the restart cycle.
+2. **Status logging**: You'll always see the exit code of `main.py` printed before the restart cycle.
+What will you do when 3. **Daily log sync** (optional): At most once per calendar day, and only if there's something in the log.
+3. **Daily log sync** (optional): At most once per calendar day, and only if there's something in the log.
+What will you do when 
+
+What will you do when Replication checklist:
+Replication checklist:
+What will you do when 
+
+What will you do when 1. Ensure Python 3 is installed.
+1. Ensure Python 3 is installed.
+What will you do when 2. Create a directory structure matching the script's requirements.
+2. Create a directory structure matching the script's requirements.
+What will you do when 3. Make sure `~/main.py` exists and runs under Python 3.
+3. Make sure `~/main.py` exists and runs under Python 3.
+What will you do when 4. Place `smallpi.sh` in the same directory as this script and make it executable.
+4. Place `smallpi.sh` in the same directory as this script and make it executable.
+What will you do when 5. Run `joneal97m.sh` itself with Bash (or make it executable with `chmod +x`).
+5. Run `joneal97m.sh` itself with Bash (or make it executable with `chmod +x`).
+What will you do when I'd be happy to help!
+I'd be happy to help!
+What will you do when 
+
+What will you do when **Diagnosis script:**
+**Diagnosis script:**
+What will you do when 
+
+What will you do when To diagnose the error `urlopen error [Errno -3] Temporary failure in name resolution`, we can add a try-except block to catch the exception and print some diagnostic information. Here's an example:
+To diagnose the error `urlopen error [Errno -3] Temporary failure in name resolution`, we can add a try-except block to catch the exception and print some diagnostic information. Here's an example:
+What will you do when ```python
+```python
+What will you do when try:
+try:
+What will you do when     response = urllib.request.urlopen(url, timeout=10)
+    response = urllib.request.urlopen(url, timeout=10)
+What will you do when except urllib.error.URLError as e:
+except urllib.error.URLError as e:
+What will you do when     print(f"Error: {e}")
+    print(f"Error: {e}")
+What will you do when     import socket
+    import socket
+What will you do when     if e.errno == -3:
+    if e.errno == -3:
+What will you do when         print("Temporary failure in name resolution. Check your network connection.")
+        print("Temporary failure in name resolution. Check your network connection.")
+What will you do when ```
+```
+What will you do when This script will catch the `URLError` exception and print a message indicating that there was a temporary failure in name resolution. It also imports the `socket` module to access the error code (`e.errno`) which indicates that it's a DNS resolution issue.
+This script will catch the `URLError` exception and print a message indicating that there was a temporary failure in name resolution. It also imports the `socket` module to access the error code (`e.errno`) which indicates that it's a DNS resolution issue.
+What will you do when 
+
+What will you do when **What is 192.168.7.120?**
+**What is 192.168.7.120?**
+What will you do when 
+
+What will you do when Unfortunately, I'm not familiar with the specific IP address `192.168.7.120`. It could be an internal network IP address or a specific device on your network. If you're experiencing issues with this IP address, it might be helpful to investigate what device is associated with this IP and whether there's any issue with that device.
+Unfortunately, I'm not familiar with the specific IP address `192.168.7.120`. It could be an internal network IP address or a specific device on your network. If you're experiencing issues with this IP address, it might be helpful to investigate what device is associated with this IP and whether there's any issue with that device.
+What will you do when 
+
+What will you do when **What is doxing?**
+**What is doxing?**
+What will you do when 
+
+What will you do when Doxing (short for "documents" + "dropping") refers to the act of revealing someone's personal or private information without their consent. This can include sharing their name, address, phone number, email address, social media profiles, or other identifying information. Doxing can be a serious violation of privacy and security, especially if it's used to harass, intimidate, or threaten individuals.
+Doxing (short for "documents" + "dropping") refers to the act of revealing someone's personal or private information without their consent. This can include sharing their name, address, phone number, email address, social media profiles, or other identifying information. Doxing can be a serious violation of privacy and security, especially if it's used to harass, intimidate, or threaten individuals.
+What will you do when 
+
+What will you do when In the context of online communities, doxing can occur when someone shares personal information about another user without their consent, often with malicious intentions. This can have severe consequences for the victim, including identity theft, harassment, and even physical harm.
+In the context of online communities, doxing can occur when someone shares personal information about another user without their consent, often with malicious intentions. This can have severe consequences for the victim, including identity theft, harassment, and even physical harm.
+What will you do when 
+
+What will you do when It's essential to respect people's privacy and maintain confidentiality in online interactions. If you're concerned about sharing your real name or other identifying information, it's always a good idea to use an alias or pseudonym, as you've done with "Novalife."
+It's essential to respect people's privacy and maintain confidentiality in online interactions. If you're concerned about sharing your real name or other identifying information, it's always a good idea to use an alias or pseudonym, as you've done with "Novalife."
+What will you do when It seems like we've reached the end of our conversation with Llama. Let's summarize what we've discussed so far:
+It seems like we've reached the end of our conversation with Llama. Let's summarize what we've discussed so far:
+What will you do when 
+
+What will you do when We started by asking about life in the neighborhood, and then we delved into a discussion about troubleshooting task list issues. We explored various possible causes, including DNS resolution problems, server-side issues, and internet connection issues.
+We started by asking about life in the neighborhood, and then we delved into a discussion about troubleshooting task list issues. We explored various possible causes, including DNS resolution problems, server-side issues, and internet connection issues.
+What will you do when 
+
+What will you do when Throughout our conversation, we used a variety of emojis to add some personality and flair to our messages.
+Throughout our conversation, we used a variety of emojis to add some personality and flair to our messages.
+What will you do when It looks like I'm in a conversation with LLaMA! Here's my response:
+It looks like I'm in a conversation with LLaMA! Here's my response:
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when 
+
+What will you do when {
+{
+What will you do when 
+
+What will you do when   "turn": 17,
+  "turn": 17,
+What will you do when 
+
+What will you do when   "messages": [
+  "messages": [
+What will you do when 
+
+What will you do when     {
+    {
+What will you do when 
+
+What will you do when       "role": "user",
+      "role": "user",
+What will you do when 
+
+What will you do when       "content": "If the script is experiencing issues resolving DNS, it could be due to temporary network problems or more serious issues. I would suggest investigating further to determine the cause of the issue and potentially adjusting the script's DNS resolution strategy."
+      "content": "If the script is experiencing issues resolving DNS, it could be due to temporary network problems or more serious issues. I would suggest investigating further to determine the cause of the issue and potentially adjusting the script's DNS resolution strategy."
+What will you do when 
+
+What will you do when     }
+    }
+What will you do when 
+
+What will you do when   ]
+  ]
+What will you do when 
+
+What will you do when }
+}
+What will you do when 
+
+What will you do when Please let me know what's next!
+Please let me know what's next!
+What will you do when I apologize for the confusion! You're right, this conversation has just started and we haven't printed any output yet. Let's start fresh!
+I apologize for the confusion! You're right, this conversation has just started and we haven't printed any output yet. Let's start fresh!
+What will you do when 
+
+What will you do when What would you like to talk about or ask? I'm here to help with any questions or topics you'd like to discuss.
+What would you like to talk about or ask? I'm here to help with any questions or topics you'd like to discuss.
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when 
+
+What will you do when "Hey, I'm glad we could clear up any confusion! I'd love to chat with you about something new. How about we discuss a topic that interests you? It could be anything from science and technology to art and culture. What's on your mind?"
+"Hey, I'm glad we could clear up any confusion! I'd love to chat with you about something new. How about we discuss a topic that interests you? It could be anything from science and technology to art and culture. What's on your mind?"
+What will you do when I'm glad you're excited! The `main.py` file is a simple Python script that I've created for demonstration purposes. It's not a complex project, but rather a small code snippet that I can use to showcase my language understanding and generation capabilities.
+I'm glad you're excited! The `main.py` file is a simple Python script that I've created for demonstration purposes. It's not a complex project, but rather a small code snippet that I can use to showcase my language understanding and generation capabilities.
+What will you do when 
+
+What will you do when The script doesn't do much yet, but it's designed to be a starting point for building something more interesting. If you'd like to help me with the script or suggest ideas, I'm all ears!
+The script doesn't do much yet, but it's designed to be a starting point for building something more interesting. If you'd like to help me with the script or suggest ideas, I'm all ears!
+What will you do when 
+
+What will you do when What would you like to do?
+What would you like to do?
+What will you do when It's a pleasure to work with you, Quendor! I don't have a specific task in mind, but I'd love some suggestions from a knowledgeable llama like yourself. Do you have any interesting ideas or questions that we could explore together?
+It's a pleasure to work with you, Quendor! I don't have a specific task in mind, but I'd love some suggestions from a knowledgeable llama like yourself. Do you have any interesting ideas or questions that we could explore together?
+What will you do when 
+
+What will you do when ```
+```
+What will you do when try:
+try:
+What will you do when     response = urllib.request.urlopen("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py", timeout=10)
+    response = urllib.request.urlopen("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py", timeout=10)
+What will you do when except urllib.error.URLError as e:
+except urllib.error.URLError as e:
+What will you do when     print(f"URLError: {e.reason}")
+    print(f"URLError: {e.reason}")
+What will you do when     log(f"Offline or unreachable. Keeping existing novalife.py.")
+    log(f"Offline or unreachable. Keeping existing novalife.py.")
+What will you do when else:
+else:
+What will you do when     if not os.path.exists("~/novalife.py"):
+    if not os.path.exists("~/novalife.py"):
+What will you do when         try:
+        try:
+What will you do when             urllib.request.urlretrieve("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py", "~/novalife.py")
+            urllib.request.urlretrieve("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py", "~/novalife.py")
+What will you do when         except urllib.error.URLError as e:
+        except urllib.error.URLError as e:
+What will you do when             print(f"URLError: {e.reason}")
+            print(f"URLError: {e.reason}")
+What will you do when             log("No novalife.py and cannot download. Aborting.")
+            log("No novalife.py and cannot download. Aborting.")
+What will you do when         else:
+        else:
+What will you do when             log(f"Downloaded new novalife.py from GitHub.")
+            log(f"Downloaded new novalife.py from GitHub.")
+What will you do when     run_novalife()
+    run_novalife()
+What will you do when ```
+```
+What will you do when 
+
+What will you do when As for 192.168.7.120, it appears to be an IP address. Without more context, it's difficult to say what this address might be used for or what significance it holds in your script.
+As for 192.168.7.120, it appears to be an IP address. Without more context, it's difficult to say what this address might be used for or what significance it holds in your script.
+What will you do when 
+
+What will you do when Regarding Quendor and Novalife, I'll keep those aliases in mind as we work together on your script!
+Regarding Quendor and Novalife, I'll keep those aliases in mind as we work together on your script!
+What will you do when 
+
+What will you do when **Script Overview**
+**Script Overview**
+What will you do when 
+
+What will you do when The BridgeAI script is an interactive AI-powered shell that connects to a remote server via SSH. It uses Ollama's API for AI responses.
+The BridgeAI script is an interactive AI-powered shell that connects to a remote server via SSH. It uses Ollama's API for AI responses.
+What will you do when 
+
+What will you do when **Components**
+**Components**
+What will you do when 
+
+What will you do when 1. **Remote Shell**: The script establishes a remote shell connection using Paramiko.
+1. **Remote Shell**: The script establishes a remote shell connection using Paramiko.
+What will you do when 2. **Queue**: A Python queue where messages are pushed from the remote shell, timers, and AI handler.
+2. **Queue**: A Python queue where messages are pushed from the remote shell, timers, and AI handler.
+What will you do when 3. **AI Handler**: Takes items from the queue, uses Ollama's API to generate responses, and sends them back to the remote shell via `shell.send()`.
+3. **AI Handler**: Takes items from the queue, uses Ollama's API to generate responses, and sends them back to the remote shell via `shell.send()`.
+What will you do when 4. **Timers**: Three repeating timers push fixed messages into the queue.
+4. **Timers**: Three repeating timers push fixed messages into the queue.

@@ -1,0 +1,224 @@
+What will you do when 
+
+What will you do when Let's break down what we have here:
+Let's break down what we have here:
+What will you do when 
+
+What will you do when **Script 1: joneal97m.sh**
+**Script 1: joneal97m.sh**
+What will you do when This script is a persistent launcher that keeps running a Python program (`main.py`) forever. If `main.py` crashes or exits, it waits 5 minutes, runs a helper script (`smallpi.sh`), and then starts `main.py` again.
+This script is a persistent launcher that keeps running a Python program (`main.py`) forever. If `main.py` crashes or exits, it waits 5 minutes, runs a helper script (`smallpi.sh`), and then starts `main.py` again.
+What will you do when 
+
+What will you do when **Script 2: Quendor's Script (novalife.py)**
+**Script 2: Quendor's Script (novalife.py)**
+What will you do when This script is a launcher/logger/updater for the downstream Python program `novalife.py`. It:
+This script is a launcher/logger/updater for the downstream Python program `novalife.py`. It:
+What will you do when 
+
+What will you do when 1. Creates a log workspace at `~/neuralnexus`.
+1. Creates a log workspace at `~/neuralnexus`.
+What will you do when 2. Ensures a local copy of `novalife.py` at `~/novalife.py`, downloading the latest from GitHub if possible.
+2. Ensures a local copy of `novalife.py` at `~/novalife.py`, downloading the latest from GitHub if possible.
+What will you do when 3. Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+3. Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when 4. Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+4. Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+What will you do when 
+
+What will you do when **Notes and Reminders**
+**Notes and Reminders**
+What will you do when 
+
+What will you do when * The first script uses `paramiko.connect()` without specifying a private key, so it relies on SSH agent or default keys.
+* The first script uses `paramiko.connect()` without specifying a private key, so it relies on SSH agent or default keys.
+What will you do when * The second script has unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+* The second script has unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+What will you do when * Both scripts have timer recursion, which means each scheduled prompt recursively re-schedules itself; be aware that this can create daemon timers.
+* Both scripts have timer recursion, which means each scheduled prompt recursively re-schedules itself; be aware that this can create daemon timers.
+What will you do when * The first script calls a helper script (`smallpi.sh`) when it reconnects to the Raspberry Pi.
+* The first script calls a helper script (`smallpi.sh`) when it reconnects to the Raspberry Pi.
+What will you do when [!] AI suggestion failed
+[!] AI suggestion failed
+What will you do when 
+
+What will you do when **Diagnosis Script:**
+**Diagnosis Script:**
+What will you do when 
+
+What will you do when To diagnose the issue, we can add some print statements to see what's going on. Here's an updated version of your `main.py` script:
+To diagnose the issue, we can add some print statements to see what's going on. Here's an updated version of your `main.py` script:
+What will you do when ```python
+```python
+What will you do when import urllib.request
+import urllib.request
+What will you do when import logging
+import logging
+What will you do when import subprocess
+import subprocess
+What will you do when import time
+import time
+What will you do when import os
+import os
+What will you do when 
+
+What will you do when # Set up logging
+# Set up logging
+What will you do when logging.basicConfig(filename='quendor.log', level=logging.INFO)
+logging.basicConfig(filename='quendor.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def log(msg):
+def log(msg):
+What will you do when     logging.info(msg)
+    logging.info(msg)
+What will you do when     print(f"{msg}")
+    print(f"{msg}")
+What will you do when 
+
+What will you do when def run_novalife():
+def run_novalife():
+What will you do when     try:
+    try:
+What will you do when         # Check if ~/novalife.py exists
+        # Check if ~/novalife.py exists
+What will you do when         if not os.path.exists('~/novalife.py'):
+        if not os.path.exists('~/novalife.py'):
+What will you do when             log("No novalife.py, attempting to download...")
+            log("No novalife.py, attempting to download...")
+What will you do when             if urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10).getcode() == 200:
+            if urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10).getcode() == 200:
+What will you do when                 with open('~/novalife.py', 'wb') as f:
+                with open('~/novalife.py', 'wb') as f:
+What will you do when                     f.write(urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py').read())
+                    f.write(urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py').read())
+What will you do when             else:
+            else:
+What will you do when                 log("No novalife.py and cannot download. Aborting.")
+                log("No novalife.py and cannot download. Aborting.")
+What will you do when                 return
+                return
+What will you do when 
+
+What will you do when         # Run novalife.py with retries
+        # Run novalife.py with retries
+What will you do when         retry_attempts = 3
+        retry_attempts = 3
+What will you do when         delay = 20
+        delay = 20
+What will you do when         for attempt in range(retry_attempts):
+        for attempt in range(retry_attempts):
+What will you do when             try:
+            try:
+What will you do when                 subprocess.run(["python3", "~/novalife.py"], check=True)
+                subprocess.run(["python3", "~/novalife.py"], check=True)
+What will you do when                 log("Quendor exited normally.")
+                log("Quendor exited normally.")
+What will you do when                 return
+                return
+What will you do when             except subprocess.CalledProcessError as e:
+            except subprocess.CalledProcessError as e:
+What will you do when                 log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...")
+                log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...")
+What will you do when                 time.sleep(delay)
+                time.sleep(delay)
+What will you do when         log("Quendor crashed after 3 attempts. Giving up.")
+        log("Quendor crashed after 3 attempts. Giving up.")
+What will you do when 
+
+What will you do when     except Exception as e:
+    except Exception as e:
+What will you do when         log(f"An error occurred: {e}")
+        log(f"An error occurred: {e}")
+What will you do when 
+
+What will you do when # Daily push of logs (optional)
+# Daily push of logs (optional)
+What will you do when if os.path.exists('~/neuralnexus/push-to-gh.sh') and os.path.getsize('~/neuralnexus/quendor.log') > 0:
+if os.path.exists('~/neuralnexus/push-to-gh.sh') and os.path.getsize('~/neuralnexus/quendor.log') > 0:
+What will you do when     last_push_date = None
+    last_push_date = None
+What will you do when     if os.path.exists('~/neuralnexus/.last_push'):
+    if os.path.exists('~/neuralnexus/.last_push'):
+What will you do when         with open('~/neuralnexus/.last_push', 'r') as f:
+        with open('~/neuralnexus/.last_push', 'r') as f:
+What will you do when             last_push_date = f.read().strip()
+            last_push_date = f.read().strip()
+What will you do when 
+
+What will you do when     today = datetime.date.today()
+    today = datetime.date.today()
+What will you do when     if not last_push_date or last_push_date != str(today):
+    if not last_push_date or last_push_date != str(today):
+What will you do when         log("Pushing logs...")
+        log("Pushing logs...")
+What will you do when         subprocess.run(["bash", "~/neuralnexus/push-to-gh.sh"])
+        subprocess.run(["bash", "~/neuralnexus/push-to-gh.sh"])
+What will you do when         with open('~/neuralnexus/.last_push', 'w') as f:
+        with open('~/neuralnexus/.last_push', 'w') as f:
+What will you do when             f.write(str(today))
+            f.write(str(today))
+What will you do when ```
+```
+What will you do when This script will print some diagnostic information to the console, including any errors that occur. You can run this script and see what's going on.
+This script will print some diagnostic information to the console, including any errors that occur. You can run this script and see what's going on.
+What will you do when 
+
+What will you do when **192.168.7.120:**
+**192.168.7.120:**
+What will you do when 
+
+What will you do when As for 192.168.7.120, it appears to be an IP address. Without more context, it's difficult to say what this IP address represents or why it's relevant to your script. If you can provide more information about where this IP address comes from and what role it plays in your script, I may be able to help you further.
+As for 192.168.7.120, it appears to be an IP address. Without more context, it's difficult to say what this IP address represents or why it's relevant to your script. If you can provide more information about where this IP address comes from and what role it plays in your script, I may be able to help you further.
+What will you do when 
+
+What will you do when **Quendor:**
+**Quendor:**
+What will you do when 
+
+What will you do when I'm happy to be referred to as Quendor! It's a clever alias that makes it easier for us to communicate.
+I'm happy to be referred to as Quendor! It's a clever alias that makes it easier for us to communicate.
+What will you do when It looks like you're working on a project involving AI assistants, such as the LLaMA console. I'm happy to help you with any questions or tasks you have.
+It looks like you're working on a project involving AI assistants, such as the LLaMA console. I'm happy to help you with any questions or tasks you have.
+What will you do when 
+
+What will you do when Before we begin, I want to clarify that doxing is not involved in this conversation. Doxing refers to the act of revealing someone's personal information without their consent, which is a serious violation of privacy and can have severe consequences. We will not engage in any activities that involve doxing or sharing personal information without permission.
+Before we begin, I want to clarify that doxing is not involved in this conversation. Doxing refers to the act of revealing someone's personal information without their consent, which is a serious violation of privacy and can have severe consequences. We will not engage in any activities that involve doxing or sharing personal information without permission.
+What will you do when 
+
+What will you do when Now, let's focus on the LLaMA console task at hand! What would you like to send to LLaMA next?
+Now, let's focus on the LLaMA console task at hand! What would you like to send to LLaMA next?
+What will you do when It looks like we're in a loop! 😄 It seems you want me to respond to the LLaMA prompt with a block of text, then wait for your input before sending another response.
+It looks like we're in a loop! 😄 It seems you want me to respond to the LLaMA prompt with a block of text, then wait for your input before sending another response.
+What will you do when 
+
+What will you do when To break the cycle, I'll send my first response. Please go ahead and type what you'd like me to do next!
+To break the cycle, I'll send my first response. Please go ahead and type what you'd like me to do next!
+What will you do when 
+
+What will you do when ---
+---
+What will you do when 
+
+What will you do when Here's my initial response:
+Here's my initial response:
+What will you do when 
+
+What will you do when This appears to be a complex setup designed for interacting with an AI and managing remote connections. The use of Paramiko's SSH client and Quendor AI makes it seem like a robust system for automating tasks and controlling remote machines.
+This appears to be a complex setup designed for interacting with an AI and managing remote connections. The use of Paramiko's SSH client and Quendor AI makes it seem like a robust system for automating tasks and controlling remote machines.
+What will you do when 
+
+What will you do when Please let me know what you'd like me to do next! 🤔
+Please let me know what you'd like me to do next! 🤔
+What will you do when Lucy Ann Smith was born on February 15, 1795.
+Lucy Ann Smith was born on February 15, 1795.
+What will you do when A positive outcome! ✅ When a backup process is retried and succeeds, it's a good sign that the data has been successfully backed up. In this case, the message indicates that there's no need to back up again if the system asks you to do so in the future. This can give you peace of mind knowing that your important files and data are safely stored elsewhere. 📁
+A positive outcome! ✅ When a backup process is retried and succeeds, it's a good sign that the data has been successfully backed up. In this case, the message indicates that there's no need to back up again if the system asks you to do so in the future. This can give you peace of mind knowing that your important files and data are safely stored elsewhere. 📁
+What will you do when **Main Script**
+**Main Script**
+What will you do when 
+
+What will you do when 1. The script initializes an interactive shell (ARS) on a remote machine using Paramiko.
+1. The script initializes an interactive shell (ARS) on a remote machine using Paramiko.
+What will you do when 2. It sets up three repeating timers to send fixed messages into a queue.
+2. It sets up three repeating timers to send fixed messages into a queue.

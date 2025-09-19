@@ -1,0 +1,170 @@
+What will you do when 
+
+What will you do when **Diagnosis Code**
+**Diagnosis Code**
+What will you do when 
+
+What will you do when To diagnose what's going on with your script, I'll add a simple print statement that will show us more information about the error. Let me modify your code:
+To diagnose what's going on with your script, I'll add a simple print statement that will show us more information about the error. Let me modify your code:
+What will you do when 
+
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when import subprocess
+import subprocess
+What will you do when import urllib.request
+import urllib.request
+What will you do when import time
+import time
+What will you do when import os
+import os
+What will you do when 
+
+What will you do when # Set up logging
+# Set up logging
+What will you do when logging.basicConfig(filename='~/neuralnexus/quendor.log', level=logging.INFO)
+logging.basicConfig(filename='~/neuralnexus/quendor.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def log(msg):
+def log(msg):
+What will you do when     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+What will you do when     f = open(os.path.join(os.path.expanduser('~'), 'neuralnexus', 'quendor.log'), 'a')
+    f = open(os.path.join(os.path.expanduser('~'), 'neuralnexus', 'quendor.log'), 'a')
+What will you do when     f.write(f"{timestamp} {msg}\n")
+    f.write(f"{timestamp} {msg}\n")
+What will you do when     f.close()
+    f.close()
+What will you do when ```
+```
+What will you do when 
+
+What will you do when This code will print the error message to your log file when an error occurs. Let me know if you want more detailed logging.
+This code will print the error message to your log file when an error occurs. Let me know if you want more detailed logging.
+What will you do when 
+
+What will you do when **192.168.7.120**
+**192.168.7.120**
+What will you do when 
+
+What will you do when According to my knowledge, `192.168.7.120` is a private IP address typically used on home networks or in a local area network (LAN). It's not a publicly accessible IP address, and it's unlikely that this IP address is related to your script issue.
+According to my knowledge, `192.168.7.120` is a private IP address typically used on home networks or in a local area network (LAN). It's not a publicly accessible IP address, and it's unlikely that this IP address is related to your script issue.
+What will you do when 
+
+What will you do when **Quendor Alias**
+**Quendor Alias**
+What will you do when 
+
+What will you do when I love the idea of using an alias! Using "Quendor" instead of "AI" or "ChatGPT" makes it easier for you to refer to our conversations. It's also a great way to maintain anonymity online, as you mentioned.
+I love the idea of using an alias! Using "Quendor" instead of "AI" or "ChatGPT" makes it easier for you to refer to our conversations. It's also a great way to maintain anonymity online, as you mentioned.
+What will you do when 
+
+What will you do when Let me know if there's anything else I can help with!
+Let me know if there's anything else I can help with!
+What will you do when It seems like we're in a llama console! Let's learn about something new. I'll respond with the exact command per turn as instructed.
+It seems like we're in a llama console! Let's learn about something new. I'll respond with the exact command per turn as instructed.
+What will you do when 
+
+What will you do when For my response, I'd like to:
+For my response, I'd like to:
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when {
+{
+What will you do when   "messages": [
+  "messages": [
+What will you do when     {
+    {
+What will you do when       "role": "system",
+      "role": "system",
+What will you do when       "content": "You are a tool-using assistant in a console. Always reply with exactly ONE command per turn: learn_about <query>  |  DO_BACKUP_NOW  |  mindkey <account>  |  write_sh <script_name.sh> \\n```sh\\n#!/usr/bin/env bash\\n# script...\\n```"
+      "content": "You are a tool-using assistant in a console. Always reply with exactly ONE command per turn: learn_about <query>  |  DO_BACKUP_NOW  |  mindkey <account>  |  write_sh <script_name.sh> \\n```sh\\n#!/usr/bin/env bash\\n# script...\\n```"
+What will you do when     },
+    },
+What will you do when     {
+    {
+What will you do when       "role": "user",
+      "role": "user",
+What will you do when       "content": "learn_about doxing"
+      "content": "learn_about doxing"
+What will you do when     }
+    }
+What will you do when   ]
+  ]
+What will you do when }
+}
+What will you do when 
+
+What will you do when Please let me know what Llama has to say about this topic!
+Please let me know what Llama has to say about this topic!
+What will you do when 
+
+What will you do when (Also, I'll make sure to only respond with exactly one command per turn as instructed.)
+(Also, I'll make sure to only respond with exactly one command per turn as instructed.)
+What will you do when [!] AI suggestion failed
+[!] AI suggestion failed
+What will you do when 
+
+What will you do when 1. Running the main.py program, which is designed to run indefinitely with self-healing capabilities (i.e., if it crashes or exits, the wrapper will restart it after a 5-minute delay).
+1. Running the main.py program, which is designed to run indefinitely with self-healing capabilities (i.e., if it crashes or exits, the wrapper will restart it after a 5-minute delay).
+What will you do when 2. Logging status information and running a helper script (smallpi.sh) whenever main.py exits.
+2. Logging status information and running a helper script (smallpi.sh) whenever main.py exits.
+What will you do when 3. Launcher/logger/updater for novalife.py, which:
+3. Launcher/logger/updater for novalife.py, which:
+What will you do when 	* Downloads the latest version of novalife.py from GitHub if it's not present locally.
+	* Downloads the latest version of novalife.py from GitHub if it's not present locally.
+What will you do when 	* Runs novalife.py up to three times with 5-minute delays between attempts if it crashes.
+	* Runs novalife.py up to three times with 5-minute delays between attempts if it crashes.
+What will you do when 	* Optionally pushes logs to GitHub (or any remote) once a day when there is log content.
+	* Optionally pushes logs to GitHub (or any remote) once a day when there is log content.
+What will you do when 
+
+What will you do when The script also includes some additional features, such as:
+The script also includes some additional features, such as:
+What will you do when 
+
+What will you do when 1. A timer comment that notes mismatches in the actual seconds vs. expected timer comments for "forever" operation.
+1. A timer comment that notes mismatches in the actual seconds vs. expected timer comments for "forever" operation.
+What will you do when 2. Unused config: BRIDGE_COMMAND = "Bridge" is defined but not used anywhere.
+2. Unused config: BRIDGE_COMMAND = "Bridge" is defined but not used anywhere.
+What will you do when 3. Timer recursion: Each scheduled prompt recursively re-schedules itself, which is intended for "forever" operation.
+3. Timer recursion: Each scheduled prompt recursively re-schedules itself, which is intended for "forever" operation.
+What will you do when 
+
+What will you do when The script seems to be designed to provide a persistent and self-healing environment for running these Python programs, with logging and status updates along the way.
+The script seems to be designed to provide a persistent and self-healing environment for running these Python programs, with logging and status updates along the way.
+What will you do when 
+
+What will you do when The script is designed to run indefinitely, and it has the following behavior:
+The script is designed to run indefinitely, and it has the following behavior:
+What will you do when 
+
+What will you do when 1. It prints a message indicating that the persistent AI loop is starting.
+1. It prints a message indicating that the persistent AI loop is starting.
+What will you do when 2. It runs the `main.py` program (or `novalife.py`) using Python 3.
+2. It runs the `main.py` program (or `novalife.py`) using Python 3.
+What will you do when 3. If the program exits or crashes, it waits for 5 minutes before retrying.
+3. If the program exits or crashes, it waits for 5 minutes before retrying.
+What will you do when 4. The script logs the exit status of the program and prints a message indicating that the program has exited with a certain status.
+4. The script logs the exit status of the program and prints a message indicating that the program has exited with a certain status.
+What will you do when 5. It runs a helper script named `smallpi.sh` (or equivalent) after the program exits.
+5. It runs a helper script named `smallpi.sh` (or equivalent) after the program exits.
+What will you do when 6. The script then sleeps for 5 minutes before restarting the loop.
+6. The script then sleeps for 5 minutes before restarting the loop.
+What will you do when 
+
+What will you do when The script also has some additional features, such as:
+The script also has some additional features, such as:
+What will you do when 
+
+What will you do when 1. It uses SSH to connect to a Raspberry Pi and run scripts remotely.
+1. It uses SSH to connect to a Raspberry Pi and run scripts remotely.
+What will you do when 2. It has an "auth method" that relies on SSH agent or default keys. If you need to use a private key, you can pass it using the `key_filename` or `pkey` parameters.
+2. It has an "auth method" that relies on SSH agent or default keys. If you need to use a private key, you can pass it using the `key_filename` or `pkey` parameters.
+What will you do when 3. It has a timer recursion feature that allows the script to recursively schedule itself for repeated runs.
+3. It has a timer recursion feature that allows the script to recursively schedule itself for repeated runs.
