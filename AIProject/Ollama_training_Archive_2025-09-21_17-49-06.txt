@@ -1,0 +1,106 @@
+What will you do when `learn_about <query>`
+`learn_about <query>`
+What will you do when 
+
+What will you do when or
+or
+What will you do when 
+
+What will you do when `DO_BACKUP_NOW`
+`DO_BACKUP_NOW`
+What will you do when 
+
+What will you do when or
+or
+What will you do when 
+
+What will you do when `mindkey <account>`
+`mindkey <account>`
+What will you do when 
+
+What will you do when or
+or
+What will you do when 
+
+What will you do when `write_sh <script_name.sh>`
+`write_sh <script_name.sh>`
+What will you do when 
+
+What will you do when For example, if you want to learn about something specific, you would type `learn_about <query>`.
+For example, if you want to learn about something specific, you would type `learn_about <query>`.
+What will you do when 
+
+What will you do when However, before we proceed with the LLaMA console, I'd like to take a moment to discuss doxing. Doxing is a form of cyberbullying where someone publicly shares another person's private information, such as their name, address, phone number, or other personal details without their consent. This can have severe consequences for the victim, including stalking, harassment, and even physical harm.
+However, before we proceed with the LLaMA console, I'd like to take a moment to discuss doxing. Doxing is a form of cyberbullying where someone publicly shares another person's private information, such as their name, address, phone number, or other personal details without their consent. This can have severe consequences for the victim, including stalking, harassment, and even physical harm.
+What will you do when 
+
+What will you do when It's essential to respect people's privacy and not engage in doxing or any form of online harassment. If you're dealing with someone who has shared your private information without permission, it's crucial to report this incident to the relevant authorities and take steps to protect yourself.
+It's essential to respect people's privacy and not engage in doxing or any form of online harassment. If you're dealing with someone who has shared your private information without permission, it's crucial to report this incident to the relevant authorities and take steps to protect yourself.
+What will you do when 
+
+What will you do when Now that we've discussed doxing, let's get back to the LLaMA console! What would you like to ask or command next?
+Now that we've discussed doxing, let's get back to the LLaMA console! What would you like to ask or command next?
+What will you do when The sweet taste of success! 😊
+The sweet taste of success! 😊
+What will you do when 
+
+What will you do when A "Backup retry succeeded" message means that a backup attempt that previously failed was retried and completed successfully. This is great news, as it indicates that the backup process has been able to recover from any errors or issues that may have occurred.
+A "Backup retry succeeded" message means that a backup attempt that previously failed was retried and completed successfully. This is great news, as it indicates that the backup process has been able to recover from any errors or issues that may have occurred.
+What will you do when 
+
+What will you do when In this case, if you were asked to back up again in the future, there's no need to do so because the previous attempt was successful and the data is now safely backed up. 👍
+In this case, if you were asked to back up again in the future, there's no need to do so because the previous attempt was successful and the data is now safely backed up. 👍
+What will you do when 
+
+What will you do when It's always a good feeling when things go smoothly, isn't it? 😊
+It's always a good feeling when things go smoothly, isn't it? 😊
+What will you do when It looks like you're providing information about a Linux system, specifically a Raspberry Pi-based AI bridge script called `joneal97m.sh`. This script is designed to connect to an SSH host, run periodic prompts, search the web when requested, and back itself up to the same SSH host on command.
+It looks like you're providing information about a Linux system, specifically a Raspberry Pi-based AI bridge script called `joneal97m.sh`. This script is designed to connect to an SSH host, run periodic prompts, search the web when requested, and back itself up to the same SSH host on command.
+What will you do when 
+
+What will you do when --- Parsed ---
+--- Parsed ---
+What will you do when {
+{
+What will you do when   "intent": "summary"
+  "intent": "summary"
+What will you do when }
+}
+What will you do when 
+
+What will you do when You (what to send to llama next; or 'exit'):
+You (what to send to llama next; or 'exit'):
+What will you do when What are the possible use cases of this API, considering its role in processing prompts and generating responses?
+What are the possible use cases of this API, considering its role in processing prompts and generating responses?
+What will you do when Lucy Ann Smith, born on February 15th, 1795!
+Lucy Ann Smith, born on February 15th, 1795!
+What will you do when That's a great message! It means that the backup process was successful and there is no need to run it again. This is often seen in automated backup scripts or tools, where the script checks the status of the previous backup attempt and only runs the next one if the previous one failed.
+That's a great message! It means that the backup process was successful and there is no need to run it again. This is often seen in automated backup scripts or tools, where the script checks the status of the previous backup attempt and only runs the next one if the previous one failed.
+What will you do when 
+
+What will you do when In this case, the "retry succeeded" part indicates that the backup process attempted to run again after a failure, but was successful this time. The "(no need to back up again if asked)" part means that there is no need to manually trigger another backup, as the automated script has already taken care of it and ensured that the data is safely backed up.
+In this case, the "retry succeeded" part indicates that the backup process attempted to run again after a failure, but was successful this time. The "(no need to back up again if asked)" part means that there is no need to manually trigger another backup, as the automated script has already taken care of it and ensured that the data is safely backed up.
+What will you do when 
+
+What will you do when Overall, this message provides a sense of relief and confirmation that the backup process has completed successfully!
+Overall, this message provides a sense of relief and confirmation that the backup process has completed successfully!
+What will you do when A complex Python script! Let's break it down into its components and explore how they work together.
+A complex Python script! Let's break it down into its components and explore how they work together.
+What will you do when 
+
+What will you do when **Overview**
+**Overview**
+What will you do when The script is an AI-powered remote shell bridge that allows Quendor to interact with a remote machine. It uses Ollama API for AI suggestions and paramiko for SSH connections.
+The script is an AI-powered remote shell bridge that allows Quendor to interact with a remote machine. It uses Ollama API for AI suggestions and paramiko for SSH connections.
+What will you do when 
+
+What will you do when **Components**
+**Components**
+What will you do when 
+
+What will you do when 1. **Remote Shell**: Establishes a connection to the remote machine using paramiko.
+1. **Remote Shell**: Establishes a connection to the remote machine using paramiko.
+What will you do when 2. **AI Handler**: Uses Ollama API to generate AI suggestions based on user input (Quendor's replies).
+2. **AI Handler**: Uses Ollama API to generate AI suggestions based on user input (Quendor's replies).
+What will you do when 3. **Timers**: Three repeating timers push fixed messages into a queue, which are then processed by the AI handler.
+3. **Timers**: Three repeating timers push fixed messages into a queue, which are then processed by the AI handler.

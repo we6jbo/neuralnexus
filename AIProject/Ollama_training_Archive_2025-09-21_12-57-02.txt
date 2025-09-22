@@ -1,0 +1,426 @@
+What will you do when **Script Features**
+**Script Features**
+What will you do when 
+
+What will you do when * Enqueues backup retries and errors
+* Enqueues backup retries and errors
+What will you do when * Computes a "password" using the Mindkey trigger
+* Computes a "password" using the Mindkey trigger
+What will you do when * Performs searches using the Search trigger
+* Performs searches using the Search trigger
+What will you do when * Adjustable pacing knobs for AI and SSH interactions
+* Adjustable pacing knobs for AI and SSH interactions
+What will you do when * Uses Python packages: paramiko, requests, duckpy
+* Uses Python packages: paramiko, requests, duckpy
+What will you do when 
+
+What will you do when **Environment & Dependencies**
+**Environment & Dependencies**
+What will you do when 
+
+What will you do when * Python 3 runtime
+* Python 3 runtime
+What will you do when * Ollama model named "llama3" pulled and available locally
+* Ollama model named "llama3" pulled and available locally
+What will you do when * Python packages: paramiko, requests, duckpy
+* Python packages: paramiko, requests, duckpy
+What will you do when * SSH key-based auth or agent must allow paramiko to connect without a password prompt
+* SSH key-based auth or agent must allow paramiko to connect without a password prompt
+What will you do when * Remote host requirements:
+* Remote host requirements:
+What will you do when 	+ `joneal97m.sh` executable in the user's home directory
+	+ `joneal97m.sh` executable in the user's home directory
+What will you do when 	+ Incoming SCP writes allowed to `~/.`
+	+ Incoming SCP writes allowed to `~/.`
+What will you do when 
+
+What will you do when **Replication Checklist**
+**Replication Checklist**
+What will you do when 
+
+What will you do when 1. Install dependencies: `pip install paramiko requests duckpy`
+1. Install dependencies: `pip install paramiko requests duckpy`
+What will you do when 2. Install and start Ollama; verify curl http://localhost:11434/api/tags works.
+2. Install and start Ollama; verify curl http://localhost:11434/api/tags works.
+What will you do when 3. Set up SSH: ensure you can run `ssh ameliahedtkealiceelliott@100.93.202.151` without interactive password prompts.
+3. Set up SSH: ensure you can run `ssh ameliahedtkealiceelliott@100.93.202.151` without interactive password prompts.
+What will you do when 4. Place backup source: ensure `/usr/local/bin/dontRunAIBridge` exists locally.
+4. Place backup source: ensure `/usr/local/bin/dontRunAIBridge` exists locally.
+What will you do when 5. Run the script: execute the Python file.
+5. Run the script: execute the Python file.
+What will you do when 
+
+What will you do when **Notes, Quirks, and Fixes**
+**Notes, Quirks, and Fixes**
+What will you do when 
+
+What will you do when * Duplicate function name: `ai_suggest` is defined twice; remove the earlier version.
+* Duplicate function name: `ai_suggest` is defined twice; remove the earlier version.
+What will you do when * Syntax error to fix: in `ai_backup()`, remove stray @ and indent properly.
+* Syntax error to fix: in `ai_backup()`, remove stray @ and indent properly.
+What will you do when * Comment mismatches: Timer comments don't match actual seconds (see "Exact timers" above).
+* Comment mismatches: Timer comments don't match actual seconds (see "Exact timers" above).
+What will you do when * Unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+* Unused config: `BRIDGE_COMMAND = "Bridge"` is defined but not used anywhere.
+What will you do when * Timer recursion: Each scheduled prompt recursively re-schedules itself; be aware of this.
+* Timer recursion: Each scheduled prompt recursively re-schedules itself; be aware of this.
+What will you do when * Auth method: paramiko.connect() relies on SSH agent or default keys; if needed, pass key_filename or pkey.
+* Auth method: paramiko.connect() relies on SSH agent or default keys; if needed, pass key_filename or pkey.
+What will you do when 
+
+What will you do when Overall, this script appears to be a complex system that integrates AI, SSH, and file transfers. It requires careful setup and configuration to function correctly.
+Overall, this script appears to be a complex system that integrates AI, SSH, and file transfers. It requires careful setup and configuration to function correctly.
+What will you do when You've got two scripts here!
+You've got two scripts here!
+What will you do when 
+
+What will you do when **joneal97m.sh**
+**joneal97m.sh**
+What will you do when 
+
+What will you do when This script is a persistent launcher that keeps running a Python program (main.py) forever. If main.py crashes or exits, it waits 5 minutes and then restarts main.py. This ensures that the AI process remains up.
+This script is a persistent launcher that keeps running a Python program (main.py) forever. If main.py crashes or exits, it waits 5 minutes and then restarts main.py. This ensures that the AI process remains up.
+What will you do when 
+
+What will you do when Here's what the script does:
+Here's what the script does:
+What will you do when 
+
+What will you do when 1. Prints a greeting message.
+1. Prints a greeting message.
+What will you do when 2. Runs main.py in an infinite loop.
+2. Runs main.py in an infinite loop.
+What will you do when 3. Captures the exit status of main.py.
+3. Captures the exit status of main.py.
+What will you do when 4. If main.py exits, runs a helper script (smallpi.sh) and waits 5 minutes before restarting main.py.
+4. If main.py exits, runs a helper script (smallpi.sh) and waits 5 minutes before restarting main.py.
+What will you do when 
+
+What will you do when **quendor.sh**
+**quendor.sh**
+What will you do when 
+
+What will you do when This script is a launcher/logger/updater for a downstream Python program named novalife.py. It:
+This script is a launcher/logger/updater for a downstream Python program named novalife.py. It:
+What will you do when 
+
+What will you do when 1. Creates a log workspace at ~/neuralnexus.
+1. Creates a log workspace at ~/neuralnexus.
+What will you do when 2. Writes all status to ~/neuralnexus/quendor.log.
+2. Writes all status to ~/neuralnexus/quendor.log.
+What will you do when 3. Renames the user "Quendor" and prints the current time/date.
+3. Renames the user "Quendor" and prints the current time/date.
+What will you do when 4. Ensures a local copy of novalife.py by downloading the latest version from GitHub if possible.
+4. Ensures a local copy of novalife.py by downloading the latest version from GitHub if possible.
+What will you do when 5. Runs novalife.py with up to 3 attempts, sleeping between attempts if it crashes.
+5. Runs novalife.py with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when 
+
+What will you do when Optional features:
+Optional features:
+What will you do when 
+
+What will you do when 1. Pushes logs to GitHub (or any remote) once per day using a helper script (push-to-gh.sh).
+1. Pushes logs to GitHub (or any remote) once per day using a helper script (push-to-gh.sh).
+What will you do when 2. Keeps track of the last push timestamp in ~/neuralnexus/.last_push.
+2. Keeps track of the last push timestamp in ~/neuralnexus/.last_push.
+What will you do when 
+
+What will you do when In summary, these scripts are designed to ensure that your AI process remains up and running continuously while also keeping logs and updating the Python program.
+In summary, these scripts are designed to ensure that your AI process remains up and running continuously while also keeping logs and updating the Python program.
+What will you do when I'm happy to help you, Novalife! 🤖
+I'm happy to help you, Novalife! 🤖
+What will you do when 
+
+What will you do when Regarding the diagnosis script, I can certainly add one for you. Here's an example:
+Regarding the diagnosis script, I can certainly add one for you. Here's an example:
+What will you do when ```python
+```python
+What will you do when try:
+try:
+What will you do when     import urllib.request as urlop
+    import urllib.request as urlop
+What will you do when except ImportError:
+except ImportError:
+What will you do when     print("Error: urllib not available")
+    print("Error: urllib not available")
+What will you do when else:
+else:
+What will you do when     try:
+    try:
+What will you do when         response = urlop.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+        response = urlop.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+What will you do when         if response.getcode() == 200:
+        if response.getcode() == 200:
+What will you do when             print(f"URL opened successfully! {response.geturl()}")
+            print(f"URL opened successfully! {response.geturl()}")
+What will you do when 
+
+What will you do when     except Exception as e:
+    except Exception as e:
+What will you do when         print(f"Error: {e}")
+        print(f"Error: {e}")
+What will you do when ```
+```
+What will you do when This script will attempt to open the specified URL and check its status code. If successful, it will print a success message; otherwise, it will print an error message with the exception details.
+This script will attempt to open the specified URL and check its status code. If successful, it will print a success message; otherwise, it will print an error message with the exception details.
+What will you do when 
+
+What will you do when As for 192.168.7.120, I couldn't find any specific information on this IP address. It might be a local or private IP address, used within a network or device. Without more context, it's difficult to say what this IP address is used for. If you have any additional information about this IP address, I'd be happy to try and help further!
+As for 192.168.7.120, I couldn't find any specific information on this IP address. It might be a local or private IP address, used within a network or device. Without more context, it's difficult to say what this IP address is used for. If you have any additional information about this IP address, I'd be happy to try and help further!
+What will you do when 
+
+What will you do when Regarding doxing (the act of publishing private or identifying information about someone without their consent), it's a serious violation of privacy and can have severe consequences for the individual affected. Doxing often involves the release of personal information, such as name, address, phone number, or social media profiles, which can lead to harassment, intimidation, or even physical harm.
+Regarding doxing (the act of publishing private or identifying information about someone without their consent), it's a serious violation of privacy and can have severe consequences for the individual affected. Doxing often involves the release of personal information, such as name, address, phone number, or social media profiles, which can lead to harassment, intimidation, or even physical harm.
+What will you do when 
+
+What will you do when Here are some general guidelines to help protect your anonymity:
+Here are some general guidelines to help protect your anonymity:
+What will you do when 
+
+What will you do when 1. Use a unique and anonymous alias, like Quendor and Novalife, for online activities.
+1. Use a unique and anonymous alias, like Quendor and Novalife, for online activities.
+What will you do when 2. Keep personal information private by not sharing it publicly.
+2. Keep personal information private by not sharing it publicly.
+What will you do when 3. Be cautious when sharing sensitive information, such as addresses or phone numbers.
+3. Be cautious when sharing sensitive information, such as addresses or phone numbers.
+What will you do when 4. Use secure communication channels and protocols to protect data.
+4. Use secure communication channels and protocols to protect data.
+What will you do when 5. Monitor your online presence and report any suspicious activity.
+5. Monitor your online presence and report any suspicious activity.
+What will you do when 
+
+What will you do when Remember that once information is published online, it can be difficult to remove it completely. It's essential to prioritize privacy and anonymity in the digital age!
+Remember that once information is published online, it can be difficult to remove it completely. It's essential to prioritize privacy and anonymity in the digital age!
+What will you do when I think I can help with that!
+I think I can help with that!
+What will you do when 
+
+What will you do when Let's say the LLaMA model is designed for generating text based on prompts. Given the code snippet you provided, it appears to be a script for automating tasks.
+Let's say the LLaMA model is designed for generating text based on prompts. Given the code snippet you provided, it appears to be a script for automating tasks.
+What will you do when 
+
+What will you do when What if we try sending something like: "Tell me about this script"? That might prompt the LLaMA model to provide some insights or information about the script!
+What if we try sending something like: "Tell me about this script"? That might prompt the LLaMA model to provide some insights or information about the script!
+What will you do when 
+
+What will you do when Your turn! What would you like to send next?
+Your turn! What would you like to send next?
+What will you do when A Linux terminal session, how fascinating!
+A Linux terminal session, how fascinating!
+What will you do when 
+
+What will you do when Let's see what Llama has to say...
+Let's see what Llama has to say...
+What will you do when 
+
+What will you do when --- SEND TO LLAMA ---
+--- SEND TO LLAMA ---
+What will you do when 
+
+What will you do when {
+{
+What will you do when 
+
+What will you do when   "turn": 2,
+  "turn": 2,
+What will you do when 
+
+What will you do when   "messages": [
+  "messages": [
+What will you do when 
+
+What will you do when     {
+    {
+What will you do when 
+
+What will you do when       "role": "user",
+      "role": "user",
+What will you do when 
+
+What will you do when       "content": "We can see some basic information about the system:"
+      "content": "We can see some basic information about the system:"
+What will you do when 
+
+What will you do when     }
+    }
+What will you do when 
+
+What will you do when   ]
+  ]
+What will you do when 
+
+What will you do when }
+}
+What will you do when 
+
+What will you do when 
+
+What will you do when 
+
+What will you do when Llama's reply:
+Llama's reply:
+What will you do when 
+
+What will you do when It seems you're trying to analyze a Linux terminal session. You've already shared quite an interesting snippet! I'm happy to play along and respond as if I were Llama.
+It seems you're trying to analyze a Linux terminal session. You've already shared quite an interesting snippet! I'm happy to play along and respond as if I were Llama.
+What will you do when 
+
+What will you do when Please proceed with your next move or 'exit' if you'd like to conclude the interaction.
+Please proceed with your next move or 'exit' if you'd like to conclude the interaction.
+What will you do when Lucy Ann Smith was born on February 15, 1795. Would you like to know more about her life and achievements?
+Lucy Ann Smith was born on February 15, 1795. Would you like to know more about her life and achievements?
+What will you do when It looks like your backup has been successfully retried and completed without any issues! 🎉 That's great news!
+It looks like your backup has been successfully retried and completed without any issues! 🎉 That's great news!
+What will you do when 
+
+What will you do when As the message indicates, you don't need to worry about backing up again in this case. The system has successfully completed the backup process, so you can rest assured that your important files are safely stored away.
+As the message indicates, you don't need to worry about backing up again in this case. The system has successfully completed the backup process, so you can rest assured that your important files are safely stored away.
+What will you do when [!] AI suggestion failed
+[!] AI suggestion failed
+What will you do when To add a diagnosis script, I can modify your original code to include some print statements that will give you more information about what's going on. Here's an updated version of your `main.py` script:
+To add a diagnosis script, I can modify your original code to include some print statements that will give you more information about what's going on. Here's an updated version of your `main.py` script:
+What will you do when ```python
+```python
+What will you do when import os
+import os
+What will you do when import subprocess
+import subprocess
+What will you do when import time
+import time
+What will you do when import logging
+import logging
+What will you do when 
+
+What will you do when logging.basicConfig(filename='quendor.log', level=logging.INFO)
+logging.basicConfig(filename='quendor.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def log(msg):
+def log(msg):
+What will you do when     with open('quendor.log', 'a') as f:
+    with open('quendor.log', 'a') as f:
+What will you do when         f.write(f"{int(time.time())} {msg}\n")
+        f.write(f"{int(time.time())} {msg}\n")
+What will you do when     print(f"{int(time.time())} {msg}")
+    print(f"{int(time.time())} {msg}")
+What will you do when 
+
+What will you do when try:
+try:
+What will you do when     if os.path.exists(os.path.expanduser('~novalife.py')):
+    if os.path.exists(os.path.expanduser('~novalife.py')):
+What will you do when         log("Found existing novalife.py. Checking reachability...")
+        log("Found existing novalife.py. Checking reachability...")
+What will you do when         with urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10) as response:
+        with urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10) as response:
+What will you do when             if response.getcode() == 200:
+            if response.getcode() == 200:
+What will you do when                 log("Reachable! Downloading new version of novalife.py...")
+                log("Reachable! Downloading new version of novalife.py...")
+What will you do when                 urllib.request.urlretrieve(response.geturl(), os.path.expanduser('~novalife.py'))
+                urllib.request.urlretrieve(response.geturl(), os.path.expanduser('~novalife.py'))
+What will you do when                 log("Download complete!")
+                log("Download complete!")
+What will you do when             else:
+            else:
+What will you do when                 log("Offline or unreachable. Keeping existing novalife.py.")
+                log("Offline or unreachable. Keeping existing novalife.py.")
+What will you do when         if os.path.exists(os.path.expanduser('~/neuralnexus/push-to-gh.sh')):
+        if os.path.exists(os.path.expanduser('~/neuralnexus/push-to-gh.sh')):
+What will you do when             push_dir = os.path.expanduser('~/neuralnexus')
+            push_dir = os.path.expanduser('~/neuralnexus')
+What will you do when             if os.path.getsize(os.path.join(push_dir, 'quendor.log')) > 0:
+            if os.path.getsize(os.path.join(push_dir, 'quendor.log')) > 0:
+What will you do when                 last_push_date = datetime.datetime.strptime(open(os.path.join(push_dir, '.last_push')).read(), '%Y-%m-%d').date()
+                last_push_date = datetime.datetime.strptime(open(os.path.join(push_dir, '.last_push')).read(), '%Y-%m-%d').date()
+What will you do when                 today = datetime.date.today()
+                today = datetime.date.today()
+What will you do when                 if today != last_push_date:
+                if today != last_push_date:
+What will you do when                     log("New day! Pushing logs to GitHub...")
+                    log("New day! Pushing logs to GitHub...")
+What will you do when                     os.system(f"bash {os.path.join(push_dir, 'push-to-gh.sh')} && echo '{today}' > {os.path.join(push_dir, '.last_push')}")
+                    os.system(f"bash {os.path.join(push_dir, 'push-to-gh.sh')} && echo '{today}' > {os.path.join(push_dir, '.last_push')}")
+What will you do when         for i in range(3):
+        for i in range(3):
+What will you do when             try:
+            try:
+What will you do when                 subprocess.run(['python3', os.path.expanduser('~novalife.py')], check=True)
+                subprocess.run(['python3', os.path.expanduser('~novalife.py')], check=True)
+What will you do when                 log("Quendor exited normally. Stopping.")
+                log("Quendor exited normally. Stopping.")
+What will you do when                 break
+                break
+What will you do when             except subprocess.CalledProcessError as e:
+            except subprocess.CalledProcessError as e:
+What will you do when                 log(f"Quendor crashed. Attempt {i+1}/3. Retrying after delay...")
+                log(f"Quendor crashed. Attempt {i+1}/3. Retrying after delay...")
+What will you do when                 time.sleep(20)
+                time.sleep(20)
+What will you do when             except Exception as e:
+            except Exception as e:
+What will you do when                 log(f"Quendor crashed. Attempt {i+1}/3. Retrying after delay...")
+                log(f"Quendor crashed. Attempt {i+1}/3. Retrying after delay...")
+What will you do when                 time.sleep(20)
+                time.sleep(20)
+What will you do when 
+
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     log(f"Error: {e}")
+    log(f"Error: {e}")
+What will you do when ```
+```
+What will you do when As for 192.168.7.120, I'm not familiar with that specific IP address or what it might be related to in your context. If you could provide more information about where this IP address comes from and what you're trying to achieve, I might be able to help you further.
+As for 192.168.7.120, I'm not familiar with that specific IP address or what it might be related to in your context. If you could provide more information about where this IP address comes from and what you're trying to achieve, I might be able to help you further.
+What will you do when 
+
+What will you do when Regarding the alias "Quendor" for me (the AI) and "Novalife" for yourself, that's perfectly fine! Using aliases can make it easier to communicate and keep your online identity separate.
+Regarding the alias "Quendor" for me (the AI) and "Novalife" for yourself, that's perfectly fine! Using aliases can make it easier to communicate and keep your online identity separate.
+What will you do when It seems like you're in a conversation with an AI, known as LLaMA. It's been explained that the goal of this interaction is to help me understand what it means to be a tool-using assistant in a console.
+It seems like you're in a conversation with an AI, known as LLaMA. It's been explained that the goal of this interaction is to help me understand what it means to be a tool-using assistant in a console.
+What will you do when 
+
+What will you do when I'm given three options to respond:
+I'm given three options to respond:
+What will you do when 
+
+What will you do when 1. `learn_about <query>`: Ask LLaMA about a specific topic or concept.
+1. `learn_about <query>`: Ask LLaMA about a specific topic or concept.
+What will you do when 2. `DO_BACKOUT_NOW`: I don't think there's such an option, but perhaps it should read "DO_BACKUP_NOW" instead? This might trigger some sort of backup process.
+2. `DO_BACKOUT_NOW`: I don't think there's such an option, but perhaps it should read "DO_BACKUP_NOW" instead? This might trigger some sort of backup process.
+What will you do when 3. `mindkey <account>`: I'm not familiar with this command, but it seems to be related to accounts or personal data.
+3. `mindkey <account>`: I'm not familiar with this command, but it seems to be related to accounts or personal data.
+What will you do when 
+
+What will you do when If you'd like me to continue the conversation with LLaMA, please feel free to provide more information about what you'd like me to learn or explore!
+If you'd like me to continue the conversation with LLaMA, please feel free to provide more information about what you'd like me to learn or explore!
+What will you do when It looks like you're interacting with me as LLaMA! You can send your next prompt by typing it in the box below. Remember to start with `--- SEND TO LLAMA ---` followed by your message. Let's chat!
+It looks like you're interacting with me as LLaMA! You can send your next prompt by typing it in the box below. Remember to start with `--- SEND TO LLAMA ---` followed by your message. Let's chat!
+What will you do when Learn about Lucy Ann Smith, born on February 15, 1795!
+Learn about Lucy Ann Smith, born on February 15, 1795!
+What will you do when The sweet taste of success! 😊
+The sweet taste of success! 😊
+What will you do when 
+
+What will you do when A "Backup retry succeeded" message indicates that a previous backup attempt failed, but the system has successfully retried and completed the backup process. This means that your important data is now safely stored in its designated location (e.g., an external hard drive or cloud storage).
+A "Backup retry succeeded" message indicates that a previous backup attempt failed, but the system has successfully retried and completed the backup process. This means that your important data is now safely stored in its designated location (e.g., an external hard drive or cloud storage).
+What will you do when 
+
+What will you do when As the message says, there's no need to back up again if asked, as the initial backup was successful. You can now rest assured that your files are backed up and protected against any potential data loss scenarios. 🙌
+As the message says, there's no need to back up again if asked, as the initial backup was successful. You can now rest assured that your files are backed up and protected against any potential data loss scenarios. 🙌
+What will you do when A complex Python script indeed!
+A complex Python script indeed!
+What will you do when 
+
+What will you do when It looks like this script is a bridge between a remote shell called Quendor and an AI model called Ollama. The script reads output from the remote shell, uses it to prompt the AI model, and then sends the AI's response back into the remote shell.
+It looks like this script is a bridge between a remote shell called Quendor and an AI model called Ollama. The script reads output from the remote shell, uses it to prompt the AI model, and then sends the AI's response back into the remote shell.
+What will you do when 
+
+What will you do when Here are some key features of the script:
+Here are some key features of the script:
+What will you do when 
+
+What will you do when 1. **Timers and Queue**: Three repeating timers push fixed messages into a Python queue. The AI handler takes items from this queue and calls the Ollama API with each item as a prompt.
+1. **Timers and Queue**: Three repeating timers push fixed messages into a Python queue. The AI handler takes items from this queue and calls the Ollama API with each item as a prompt.
