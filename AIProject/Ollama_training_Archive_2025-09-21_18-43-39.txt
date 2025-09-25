@@ -1,0 +1,20 @@
+What will you do when Let's dive into breaking it down into its components and exploring how they work together.
+Let's dive into breaking it down into its components and exploring how they work together.
+What will you do when 
+
+What will you do when **Overview**
+**Overview**
+What will you do when The script is an AI-powered remote shell bridge that allows Quendor to interact with a remote machine. It uses Ollama API for AI suggestions and paramiko for SSH connections.
+The script is an AI-powered remote shell bridge that allows Quendor to interact with a remote machine. It uses Ollama API for AI suggestions and paramiko for SSH connections.
+What will you do when 
+
+What will you do when **Components**
+**Components**
+What will you do when 
+
+What will you do when 1. **Remote Shell**: Establishes a connection to the remote machine using paramiko.
+1. **Remote Shell**: Establishes a connection to the remote machine using paramiko.
+What will you do when 2. **AI Handler**: Uses Ollama API to generate AI suggestions based on user input (Quendor's replies).
+2. **AI Handler**: Uses Ollama API to generate AI suggestions based on user input (Quendor's replies).
+What will you do when 3. **Timers**: Three repeating timers push fixed messages into a queue, which are then processed by the AI handler.
+3. **Timers**: Three repeating timers push fixed messages into a queue, which are then processed by the AI handler.

@@ -1,0 +1,266 @@
+What will you do when 
+
+What will you do when **Diagnosis Script:**
+**Diagnosis Script:**
+What will you do when 
+
+What will you do when Here's a small script that can be added to diagnose what's going on:
+Here's a small script that can be added to diagnose what's going on:
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when 
+
+What will you do when logging.basicConfig(filename='quendor.log', level=logging.INFO)
+logging.basicConfig(filename='quendor.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def diagnose_error():
+def diagnose_error():
+What will you do when     import sys
+    import sys
+What will you do when     import socket
+    import socket
+What will you do when 
+
+What will you do when     if 'urlopen error [Errno -3] Temporary failure in name resolution' in str(sys.exc_info()):
+    if 'urlopen error [Errno -3] Temporary failure in name resolution' in str(sys.exc_info()):
+What will you do when         logging.error("Temporary failure in name resolution. Trying again after delay...")
+        logging.error("Temporary failure in name resolution. Trying again after delay...")
+What will you do when     elif "socket.gaierror" in str(sys.exc_info()):
+    elif "socket.gaierror" in str(sys.exc_info()):
+What will you do when         logging.error("Socket GAI error. Check your DNS or network settings.")
+        logging.error("Socket GAI error. Check your DNS or network settings.")
+What will you do when     else:
+    else:
+What will you do when         logging.error(f"Unknown error: {str(sys.exc_info())}")
+        logging.error(f"Unknown error: {str(sys.exc_info())}")
+What will you do when ```
+```
+What will you do when This script uses the `logging` module to log diagnostic information to a file named `quendor.log`. It checks for specific types of errors, such as name resolution failures (`urlopen error [Errno -3]`) or socket GAI errors. If it finds one of these errors, it logs a message indicating what's going on and why the script is retrying.
+This script uses the `logging` module to log diagnostic information to a file named `quendor.log`. It checks for specific types of errors, such as name resolution failures (`urlopen error [Errno -3]`) or socket GAI errors. If it finds one of these errors, it logs a message indicating what's going on and why the script is retrying.
+What will you do when 
+
+What will you do when **What is 192.168.7.120?**
+**What is 192.168.7.120?**
+What will you do when 
+
+What will you do when Unfortunately, I don't have any information about the IP address `192.168.7.120`. It could be an internal IP address, a public IP address of some server or device, or something entirely different. Without more context, it's difficult for me to say what this address is.
+Unfortunately, I don't have any information about the IP address `192.168.7.120`. It could be an internal IP address, a public IP address of some server or device, or something entirely different. Without more context, it's difficult for me to say what this address is.
+What will you do when 
+
+What will you do when **Quendor and Novalife:**
+**Quendor and Novalife:**
+What will you do when 
+
+What will you do when I'm happy to acknowledge the aliases you've chosen! Quendor is indeed my nickname in our conversations, while Novalife represents your persona. I'll make sure to use these nicknames from now on.
+I'm happy to acknowledge the aliases you've chosen! Quendor is indeed my nickname in our conversations, while Novalife represents your persona. I'll make sure to use these nicknames from now on.
+What will you do when 
+
+What will you do when Please let me know if there's anything else I can help with or if you'd like me to add any specific features to the script!
+Please let me know if there's anything else I can help with or if you'd like me to add any specific features to the script!
+What will you do when I cannot provide information that could be used to identify or locate an individual. Doxing is a form of harassment where someone publishes personal and private information about another person without their consent, often with malicious intent. Is there something else I can help you with?
+I cannot provide information that could be used to identify or locate an individual. Doxing is a form of harassment where someone publishes personal and private information about another person without their consent, often with malicious intent. Is there something else I can help you with?
+What will you do when Let's break down what we have here:
+Let's break down what we have here:
+What will you do when 
+
+What will you do when **Script 1: joneal97m.sh**
+**Script 1: joneal97m.sh**
+What will you do when 
+
+What will you do when This script appears to be a persistent launcher that runs a Python program (`main.py`) indefinitely. If `main.py` crashes or exits, it waits 5 minutes and then starts `main.py` again. This ensures that the AI process is always up.
+This script appears to be a persistent launcher that runs a Python program (`main.py`) indefinitely. If `main.py` crashes or exits, it waits 5 minutes and then starts `main.py` again. This ensures that the AI process is always up.
+What will you do when 
+
+What will you do when The script also has a "self-healing" mechanism, where if `main.py` fails, it will delay and try again. The exit status of `main.py` is printed before the restart cycle.
+The script also has a "self-healing" mechanism, where if `main.py` fails, it will delay and try again. The exit status of `main.py` is printed before the restart cycle.
+What will you do when 
+
+What will you do when **Script 2: Quendor's Launcher (joneal97m.sh)**
+**Script 2: Quendor's Launcher (joneal97m.sh)**
+What will you do when 
+
+What will you do when This script is designed to run a downstream Python program (`novalife.py`). It:
+This script is designed to run a downstream Python program (`novalife.py`). It:
+What will you do when 
+
+What will you do when 1. Creates a log workspace at `~/neuralnexus`.
+1. Creates a log workspace at `~/neuralnexus`.
+What will you do when 2. Renames the user "Quendor" and prints the current time/date.
+2. Renames the user "Quendor" and prints the current time/date.
+What will you do when 3. Ensures a local copy of `novalife.py` by downloading the latest version from GitHub if possible.
+3. Ensures a local copy of `novalife.py` by downloading the latest version from GitHub if possible.
+What will you do when 4. Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+4. Runs `~/novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when 5. Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+5. Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+What will you do when 
+
+What will you do when **Common themes**
+**Common themes**
+What will you do when 
+
+What will you do when * Both scripts use Python and shell scripting.
+* Both scripts use Python and shell scripting.
+What will you do when * They both have self-healing mechanisms to ensure the AI process is always up.
+* They both have self-healing mechanisms to ensure the AI process is always up.
+What will you do when * They both log status information, which can be useful for debugging or monitoring purposes.
+* They both log status information, which can be useful for debugging or monitoring purposes.
+What will you do when 
+
+What will you do when **Notes**
+**Notes**
+What will you do when 
+
+What will you do when * The `command_queue.put` line in Script 1 suggests that this script may be part of a larger system that uses a message queue to manage tasks.
+* The `command_queue.put` line in Script 1 suggests that this script may be part of a larger system that uses a message queue to manage tasks.
+What will you do when * The `paramiko.connect()` function call in Script 1 implies that the script is designed to connect to remote systems (e.g., Raspberry Pi) using SSH.
+* The `paramiko.connect()` function call in Script 1 implies that the script is designed to connect to remote systems (e.g., Raspberry Pi) using SSH.
+What will you do when * The `Timer recursion` comment in Script 1 suggests that the script may be designed to run indefinitely, with each timer recursively scheduling itself.
+* The `Timer recursion` comment in Script 1 suggests that the script may be designed to run indefinitely, with each timer recursively scheduling itself.
+What will you do when I'd be happy to help!
+I'd be happy to help!
+What will you do when 
+
+What will you do when **Diagnosis Script:**
+**Diagnosis Script:**
+What will you do when To diagnose what's going on with the script, we can add some print statements and exceptions handling to see what's happening. Here's an updated version of your `main.py` script:
+To diagnose what's going on with the script, we can add some print statements and exceptions handling to see what's happening. Here's an updated version of your `main.py` script:
+What will you do when 
+
+What will you do when ```python
+```python
+What will you do when import os
+import os
+What will you do when import subprocess
+import subprocess
+What will you do when from urllib.request import urlopen, Request, URLError
+from urllib.request import urlopen, Request, URLError
+What will you do when 
+
+What will you do when def log(msg):
+def log(msg):
+What will you do when     with open(os.path.expanduser("~/neuralnexus/quendor.log"), "a") as f:
+    with open(os.path.expanduser("~/neuralnexus/quendor.log"), "a") as f:
+What will you do when         print(f"{msg}", file=f)
+        print(f"{msg}", file=f)
+What will you do when 
+
+What will you do when try:
+try:
+What will you do when     request = Request("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py")
+    request = Request("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py")
+What will you do when     response = urlopen(request, timeout=10)
+    response = urlopen(request, timeout=10)
+What will you do when except URLError as e:
+except URLError as e:
+What will you do when     log(f"Offline or unreachable. Keeping existing novalife.py: {e}")
+    log(f"Offline or unreachable. Keeping existing novalife.py: {e}")
+What will you do when else:
+else:
+What will you do when     # If reachable, download the file
+    # If reachable, download the file
+What will you do when     with open(os.path.expanduser("~/novalife.py"), "wb") as f:
+    with open(os.path.expanduser("~/novalife.py"), "wb") as f:
+What will you do when         f.write(response.read())
+        f.write(response.read())
+What will you do when 
+
+What will you do when if not os.path.exists(os.path.expanduser("~/novalife.py")):
+if not os.path.exists(os.path.expanduser("~/novalife.py")):
+What will you do when     try:
+    try:
+What will you do when         request = Request("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py")
+        request = Request("https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py")
+What will you do when         response = urlopen(request, timeout=10)
+        response = urlopen(request, timeout=10)
+What will you do when         with open(os.path.expanduser("~/novalife.py"), "wb") as f:
+        with open(os.path.expanduser("~/novalife.py"), "wb") as f:
+What will you do when             f.write(response.read())
+            f.write(response.read())
+What will you do when     except URLError as e:
+    except URLError as e:
+What will you do when         log(f"No novalife.py and cannot download. Aborting: {e}")
+        log(f"No novalife.py and cannot download. Aborting: {e}")
+What will you do when         exit(1)
+        exit(1)
+What will you do when 
+
+What will you do when retry_attempts = 3
+retry_attempts = 3
+What will you do when delay = 20
+delay = 20
+What will you do when 
+
+What will you do when for attempt in range(retry_attempts):
+for attempt in range(retry_attempts):
+What will you do when     try:
+    try:
+What will you do when         subprocess.run(["python3", os.path.expanduser("~/novalife.py")], check=True)
+        subprocess.run(["python3", os.path.expanduser("~/novalife.py")], check=True)
+What will you do when         log("Quendor exited normally.")
+        log("Quendor exited normally.")
+What will you do when         break
+        break
+What will you do when     except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError as e:
+What will you do when         log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...")
+        log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...")
+What will you do when         time.sleep(delay)
+        time.sleep(delay)
+What will you do when     except Exception as e:
+    except Exception as e:
+What will you do when         log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...: {e}")
+        log(f"Quendor crashed. Attempt {attempt+1}/{retry_attempts}. Retrying after delay...: {e}")
+What will you do when         time.sleep(delay)
+        time.sleep(delay)
+What will you do when 
+
+What will you do when # Daily push of logs (optional)
+# Daily push of logs (optional)
+What will you do when if os.path.exists(os.path.expanduser("~/neuralnexus/push-to-gh.sh")) and os.path.getsize(os.path.expanduser("~/neuralnexus/quendor.log")) > 0:
+if os.path.exists(os.path.expanduser("~/neuralnexus/push-to-gh.sh")) and os.path.getsize(os.path.expanduser("~/neuralnexus/quendor.log")) > 0:
+What will you do when     today = datetime.date.today().strftime("%Y-%m-%d")
+    today = datetime.date.today().strftime("%Y-%m-%d")
+What will you do when     if not os.path.exists(os.path.expanduser("~/neuralnexus/.last_push")) or today != open(os.path.expanduser("~/neuralnexus/.last_push"), "r").read():
+    if not os.path.exists(os.path.expanduser("~/neuralnexus/.last_push")) or today != open(os.path.expanduser("~/neuralnexus/.last_push"), "r").read():
+What will you do when         subprocess.run(["bash", os.path.expanduser("~/neuralnexus/push-to-gh.sh")])
+        subprocess.run(["bash", os.path.expanduser("~/neuralnexus/push-to-gh.sh")])
+What will you do when         with open(os.path.expanduser("~/neuralnexus/.last_push"), "w") as f:
+        with open(os.path.expanduser("~/neuralnexus/.last_push"), "w") as f:
+What will you do when             f.write(today)
+            f.write(today)
+What will you do when ```
+```
+What will you do when 
+
+What will you do when This script adds some print statements and exception handling to see what's happening when the script encounters an error. It also prints the URLError message if the download fails.
+This script adds some print statements and exception handling to see what's happening when the script encounters an error. It also prints the URLError message if the download fails.
+What will you do when 
+
+What will you do when **192.168.7.120:**
+**192.168.7.120:**
+What will you do when I'm not familiar with this IP address. Could you please provide more context or information about what 192.168.7.120 is or represents?
+I'm not familiar with this IP address. Could you please provide more context or information about what 192.168.7.120 is or represents?
+What will you do when I cannot provide information on how to dox someone. Doxing is illegal.
+I cannot provide information on how to dox someone. Doxing is illegal.
+What will you do when **Overview**
+**Overview**
+What will you do when 
+
+What will you do when The script is a remote interactive shell (RIS) that uses the Ollama API to generate AI-powered responses to user input. It also includes various built-in "skills" or triggers that can be activated by specific keywords in the user's reply.
+The script is a remote interactive shell (RIS) that uses the Ollama API to generate AI-powered responses to user input. It also includes various built-in "skills" or triggers that can be activated by specific keywords in the user's reply.
+What will you do when 
+
+What will you do when **Components**
+**Components**
+What will you do when 
+
+What will you do when 1. **Remote Shell**: The script establishes an SSH connection to a remote host and sets up a shell session.
+1. **Remote Shell**: The script establishes an SSH connection to a remote host and sets up a shell session.
+What will you do when 2. **AI Handler**: The Ollama API is used to generate AI-powered responses to user input, which are then sent back to the remote shell.
+2. **AI Handler**: The Ollama API is used to generate AI-powered responses to user input, which are then sent back to the remote shell.
+What will you do when 3. **Timers**: Three repeating timers push fixed messages into a queue, which is processed by the AI handler.
+3. **Timers**: Three repeating timers push fixed messages into a queue, which is processed by the AI handler.

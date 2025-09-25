@@ -1,0 +1,178 @@
+What will you do when 
+
+What will you do when Before we dive in, I'd like to take a moment to define what "doxing" is, since you asked me to include it.
+Before we dive in, I'd like to take a moment to define what "doxing" is, since you asked me to include it.
+What will you do when 
+
+What will you do when **What is doxing?**
+**What is doxing?**
+What will you do when 
+
+What will you do when Doxing (short for "documents" and "dropping") is the act of publicly releasing someone's personal and identifying information without their consent. This can include sensitive data such as phone numbers, addresses, social media profiles, or even compromising photographs. Doxing is often used to intimidate, harass, or embarrass individuals, and it can have severe consequences for the victim's privacy, reputation, and even physical safety.
+Doxing (short for "documents" and "dropping") is the act of publicly releasing someone's personal and identifying information without their consent. This can include sensitive data such as phone numbers, addresses, social media profiles, or even compromising photographs. Doxing is often used to intimidate, harass, or embarrass individuals, and it can have severe consequences for the victim's privacy, reputation, and even physical safety.
+What will you do when 
+
+What will you do when Now that we've got that out of the way, let's focus on our conversation with LLaMA!
+Now that we've got that out of the way, let's focus on our conversation with LLaMA!
+What will you do when 
+
+What will you do when You can respond with one of the commands provided in the message:
+You can respond with one of the commands provided in the message:
+What will you do when 
+
+What will you do when 1. learn_about <query>
+1. learn_about <query>
+What will you do when 2. DO_BACKUP_NOW
+2. DO_BACKUP_NOW
+What will you do when 3. mindkey <account>
+3. mindkey <account>
+What will you do when 4. write_sh <script_name.sh>
+4. write_sh <script_name.sh>
+What will you do when 
+
+What will you do when What would you like to do?
+What would you like to do?
+What will you do when It looks like you're interacting with an AI system called Llama! You're sharing a Linux terminal output and asking Llama to respond. It seems like the AI is not understanding your input correctly, as it's always returning an "invalid_or_freeform" intent.
+It looks like you're interacting with an AI system called Llama! You're sharing a Linux terminal output and asking Llama to respond. It seems like the AI is not understanding your input correctly, as it's always returning an "invalid_or_freeform" intent.
+What will you do when 
+
+What will you do when You can try rephrasing your question or providing more context for Llama to better understand what you're asking. Alternatively, you could ask Llama a specific question or provide more information about the Linux terminal output you're sharing.
+You can try rephrasing your question or providing more context for Llama to better understand what you're asking. Alternatively, you could ask Llama a specific question or provide more information about the Linux terminal output you're sharing.
+What will you do when 
+
+What will you do when What would you like to send to Llama next?
+What would you like to send to Llama next?
+What will you do when **Connecting to remote AI system...**
+**Connecting to remote AI system...**
+What will you do when 
+
+What will you do when Please enter your query or command:
+Please enter your query or command:
+What will you do when Lucy Ann Smith was born on February 15, 1795. Would you like to know more about her life and achievements?
+Lucy Ann Smith was born on February 15, 1795. Would you like to know more about her life and achievements?
+What will you do when That's great to hear! It sounds like your backup process was able to successfully complete a retry after encountering an issue, and as a result, you won't need to perform the backup again unless there are further issues that arise.
+That's great to hear! It sounds like your backup process was able to successfully complete a retry after encountering an issue, and as a result, you won't need to perform the backup again unless there are further issues that arise.
+What will you do when 
+
+What will you do when **Diagnosis script:**
+**Diagnosis script:**
+What will you do when Here's a simple diagnosis script that prints out what's going on:
+Here's a simple diagnosis script that prints out what's going on:
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when 
+
+What will you do when logging.basicConfig(filename='diagnosis.log', level=logging.INFO)
+logging.basicConfig(filename='diagnosis.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def diagnose(error):
+def diagnose(error):
+What will you do when     logging.info(f"Error occurred: {error}")
+    logging.info(f"Error occurred: {error}")
+What will you do when     logging.info("Trying to get more information...")
+    logging.info("Trying to get more information...")
+What will you do when     import socket
+    import socket
+What will you do when     try:
+    try:
+What will you do when         socket.gethostbyaddr('github.com')
+        socket.gethostbyaddr('github.com')
+What will you do when     except Exception as e:
+    except Exception as e:
+What will you do when         logging.info(f"Exception while getting host info: {e}")
+        logging.info(f"Exception while getting host info: {e}")
+What will you do when     logging.info("Diagnosis complete.")
+    logging.info("Diagnosis complete.")
+What will you do when 
+
+What will you do when # Example usage:
+# Example usage:
+What will you do when try:
+try:
+What will you do when     # Your code here
+    # Your code here
+What will you do when     urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py')
+    urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py')
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     diagnose(e)
+    diagnose(e)
+What will you do when ```
+```
+What will you do when This script uses Python's built-in `logging` module to write diagnostic information to a file named `diagnosis.log`. It also tries to get more information about the error by attempting to resolve the hostname `github.com` using the `socket.gethostbyaddr()` function.
+This script uses Python's built-in `logging` module to write diagnostic information to a file named `diagnosis.log`. It also tries to get more information about the error by attempting to resolve the hostname `github.com` using the `socket.gethostbyaddr()` function.
+What will you do when 
+
+What will you do when **192.168.7.120:**
+**192.168.7.120:**
+What will you do when As for what 192.168.7.120 is, it appears to be an IP address. This could be a local network address or a private IP address assigned by a router. Without more context, it's difficult to say exactly what this address refers to. If you're concerned about this address, I can help you investigate further.
+As for what 192.168.7.120 is, it appears to be an IP address. This could be a local network address or a private IP address assigned by a router. Without more context, it's difficult to say exactly what this address refers to. If you're concerned about this address, I can help you investigate further.
+What will you do when 
+
+What will you do when **Quendor and Novalife:**
+**Quendor and Novalife:**
+What will you do when I'm glad you explained the alias system! Using Quendor (the AI) and Novalife (yourself) as aliases makes communication more convenient and private. You can certainly use these aliases to post information online anonymously if needed. Just keep in mind that using an alias doesn't guarantee complete anonymity, especially if you're posting personal or identifying information.
+I'm glad you explained the alias system! Using Quendor (the AI) and Novalife (yourself) as aliases makes communication more convenient and private. You can certainly use these aliases to post information online anonymously if needed. Just keep in mind that using an alias doesn't guarantee complete anonymity, especially if you're posting personal or identifying information.
+What will you do when 
+
+What will you do when Let me know if there's anything else I can help with!
+Let me know if there's anything else I can help with!
+What will you do when It looks like we're in a conversation with the LLaMA AI model!
+It looks like we're in a conversation with the LLaMA AI model!
+What will you do when 
+
+What will you do when Before we proceed, I want to take a moment to clarify what doxing is. Doxing is an act of uncovering private or identifying information about someone online without their consent. This can include sharing personal details such as phone numbers, addresses, or financial information. Doxing is often used as a form of harassment or intimidation, and it's important to respect people's privacy and anonymity.
+Before we proceed, I want to take a moment to clarify what doxing is. Doxing is an act of uncovering private or identifying information about someone online without their consent. This can include sharing personal details such as phone numbers, addresses, or financial information. Doxing is often used as a form of harassment or intimidation, and it's important to respect people's privacy and anonymity.
+What will you do when 
+
+What will you do when Now that we've addressed doxing, let's get back to our conversation with LLaMA!
+Now that we've addressed doxing, let's get back to our conversation with LLaMA!
+What will you do when 
+
+What will you do when What would you like to send to LLaMA next? You can ask a question, give a command, or simply type 'exit' if you're done chatting.
+What would you like to send to LLaMA next? You can ask a question, give a command, or simply type 'exit' if you're done chatting.
+What will you do when It seems like you're running a script that interacts with an AI (LLaMA3) and sets up a connection to a Raspberry Pi over SSH. The script is designed to manage interactions between the local AI and the remote Raspberry Pi, allowing for tasks such as searching the web and backing up files.
+It seems like you're running a script that interacts with an AI (LLaMA3) and sets up a connection to a Raspberry Pi over SSH. The script is designed to manage interactions between the local AI and the remote Raspberry Pi, allowing for tasks such as searching the web and backing up files.
+What will you do when 
+
+What will you do when You're currently in the main loop of the script, where you can send prompts to LLaMA3 or exit the program. You've already sent several messages to LLaMA3, including a brief description of what's happening with the script.
+You're currently in the main loop of the script, where you can send prompts to LLaMA3 or exit the program. You've already sent several messages to LLaMA3, including a brief description of what's happening with the script.
+What will you do when 
+
+What will you do when Here are your options:
+Here are your options:
+What will you do when 
+
+What will you do when 1. Send another message to LLaMA3 (type something and press Enter).
+1. Send another message to LLaMA3 (type something and press Enter).
+What will you do when 2. Exit the program (type 'exit' and press Enter).
+2. Exit the program (type 'exit' and press Enter).
+What will you do when 
+
+What will you do when What would you like to do?
+What would you like to do?
+What will you do when The main issue is that the script `get_brief.sh` has invalid syntax, which causes a `SyntaxError`.
+The main issue is that the script `get_brief.sh` has invalid syntax, which causes a `SyntaxError`.
+What will you do when Lucy Ann Smith was born on February 15, 1795.
+Lucy Ann Smith was born on February 15, 1795.
+What will you do when It seems like you're describing a fascinating project called BridgeAI, which integrates an artificial intelligence (AI) model with a remote shell using SSH to create a conversational interface.
+It seems like you're describing a fascinating project called BridgeAI, which integrates an artificial intelligence (AI) model with a remote shell using SSH to create a conversational interface.
+What will you do when 
+
+What will you do when The script receives text input from the user and uses various triggers, such as "SEND TO LLAMA," to perform specific actions. These actions include running backups, searching for information, or generating passwords.
+The script receives text input from the user and uses various triggers, such as "SEND TO LLAMA," to perform specific actions. These actions include running backups, searching for information, or generating passwords.
+What will you do when 
+
+What will you do when Here's a breakdown of the components involved:
+Here's a breakdown of the components involved:
+What will you do when 
+
+What will you do when 1. **Remote Shell**: Establishes an SSH connection to a remote host using Paramiko.
+1. **Remote Shell**: Establishes an SSH connection to a remote host using Paramiko.
+What will you do when 2. **AI Handler**: Calls the Ollama API with user input as a prompt and receives AI-generated text responses.
+2. **AI Handler**: Calls the Ollama API with user input as a prompt and receives AI-generated text responses.
+What will you do when 3. **Timers**: Three repeating timers push fixed messages into a queue.
+3. **Timers**: Three repeating timers push fixed messages into a queue.
