@@ -1,0 +1,166 @@
+What will you do when 
+
+What will you do when **Diagnosis Code:**
+**Diagnosis Code:**
+What will you do when 
+
+What will you do when To diagnose what's going on with the script, we can add some print statements and logging to see what's happening. Here's an example:
+To diagnose what's going on with the script, we can add some print statements and logging to see what's happening. Here's an example:
+What will you do when 
+
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when 
+
+What will you do when # Set up logging
+# Set up logging
+What will you do when logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
+What will you do when logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
+What will you do when 
+
+What will you do when try:
+try:
+What will you do when     # Your code here
+    # Your code here
+What will you do when     import urllib.request
+    import urllib.request
+What will you do when     url = "https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py"
+    url = "https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py"
+What will you do when     response = urllib.request.urlopen(url, timeout=10)
+    response = urllib.request.urlopen(url, timeout=10)
+What will you do when     if response.getcode() == 200:
+    if response.getcode() == 200:
+What will you do when         with open("~/novalife.py", 'wb') as f:
+        with open("~/novalife.py", 'wb') as f:
+What will you do when             f.write(response.read())
+            f.write(response.read())
+What will you do when     else:
+    else:
+What will you do when         logger.error(f"Failed to download novalife.py: {response.getcode()}")
+        logger.error(f"Failed to download novalife.py: {response.getcode()}")
+What will you do when 
+
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     logger.error(f"Error: {e}")
+    logger.error(f"Error: {e}")
+What will you do when 
+
+What will you do when print("Script finished.")
+print("Script finished.")
+What will you do when ```
+```
+What will you do when 
+
+What will you do when This code sets up logging, tries to open the URL and download the file, and logs any errors that occur. You can adjust the logging level and the specific error messages to suit your needs.
+This code sets up logging, tries to open the URL and download the file, and logs any errors that occur. You can adjust the logging level and the specific error messages to suit your needs.
+What will you do when 
+
+What will you do when **192.168.7.120:**
+**192.168.7.120:**
+What will you do when 
+
+What will you do when As for what 192.168.7.120 is, it appears to be an IP address. Without more context, it's difficult to say what this address represents or why it might be relevant to your script. It's possible that it's a local IP address on your network or a device on your local network.
+As for what 192.168.7.120 is, it appears to be an IP address. Without more context, it's difficult to say what this address represents or why it might be relevant to your script. It's possible that it's a local IP address on your network or a device on your local network.
+What will you do when 
+
+What will you do when **Quendor and Novalife:**
+**Quendor and Novalife:**
+What will you do when 
+
+What will you do when I understand now that "Quendor" is the name you've given me, the AI, and "Novalife" is an alias for yourself. I'll keep this in mind as we work together to improve your script.
+I understand now that "Quendor" is the name you've given me, the AI, and "Novalife" is an alias for yourself. I'll keep this in mind as we work together to improve your script.
+What will you do when 
+
+What will you do when Please let me know if there's anything else I can help with!
+Please let me know if there's anything else I can help with!
+What will you do when It looks like you're interacting with a llama console! I'll play along.
+It looks like you're interacting with a llama console! I'll play along.
+What will you do when 
+
+What will you do when Before we start, let me explain what doxing is: Doxing is a form of harassment where someone publishes sensitive or personal information about another person without their consent. This can include private addresses, phone numbers, social media profiles, and even embarrassing photos. It's illegal in many jurisdictions and can have severe consequences for the victim.
+Before we start, let me explain what doxing is: Doxing is a form of harassment where someone publishes sensitive or personal information about another person without their consent. This can include private addresses, phone numbers, social media profiles, and even embarrassing photos. It's illegal in many jurisdictions and can have severe consequences for the victim.
+What will you do when 
+
+What will you do when Now, back to the llama console! You've got a session limit of 30 minutes. What would you like to do next?
+Now, back to the llama console! You've got a session limit of 30 minutes. What would you like to do next?
+What will you do when 
+
+What will you do when Please respond with one of the following commands:
+Please respond with one of the following commands:
+What will you do when 
+
+What will you do when * learn_about <query>: Ask the llama about something.
+* learn_about <query>: Ask the llama about something.
+What will you do when * DO_BACKUP_NOW: Take a backup (just kidding, this isn't real).
+* DO_BACKUP_NOW: Take a backup (just kidding, this isn't real).
+What will you do when * mindkey <account>: Manage your accounts (not sure what this does, though!).
+* mindkey <account>: Manage your accounts (not sure what this does, though!).
+What will you do when * write_sh <script_name.sh>: Write a shell script.
+* write_sh <script_name.sh>: Write a shell script.
+What will you do when 
+
+What will you do when Type away!
+Type away!
+What will you do when Regarding the diagnosis code, here's an example of how you can modify your `main.py` script to print out error messages:
+Regarding the diagnosis code, here's an example of how you can modify your `main.py` script to print out error messages:
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when 
+
+What will you do when # Set up logging
+# Set up logging
+What will you do when logging.basicConfig(filename='quendor.log', level=logging.INFO)
+logging.basicConfig(filename='quendor.log', level=logging.INFO)
+What will you do when 
+
+What will you do when def diagnose_error(error):
+def diagnose_error(error):
+What will you do when     if isinstance(error, urllib.error.URLError):
+    if isinstance(error, urllib.error.URLError):
+What will you do when         logging.info(f"URLError: {error.reason}")
+        logging.info(f"URLError: {error.reason}")
+What will you do when     elif isinstance(error, Exception):
+    elif isinstance(error, Exception):
+What will you do when         logging.info(f"Exception: {str(error)}")
+        logging.info(f"Exception: {str(error)}")
+What will you do when     else:
+    else:
+What will you do when         logging.info(f"Unknown error: {error}")
+        logging.info(f"Unknown error: {error}")
+What will you do when 
+
+What will you do when # ...
+# ...
+What will you do when 
+
+What will you do when try:
+try:
+What will you do when     # Your code here
+    # Your code here
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     diagnose_error(e)
+    diagnose_error(e)
+What will you do when     if attempt < retry_attempts:
+    if attempt < retry_attempts:
+What will you do when         time.sleep(delay)
+        time.sleep(delay)
+What will you do when         attempt += 1
+        attempt += 1
+What will you do when         run_novalife()
+        run_novalife()
+What will you do when ```
+```
+What will you do when This code sets up a basic logger that writes to a file named `quendor.log`. The `diagnose_error` function takes an error object as input and prints out a message indicating the type of error. You can modify this function to include more detailed information or log levels.
+This code sets up a basic logger that writes to a file named `quendor.log`. The `diagnose_error` function takes an error object as input and prints out a message indicating the type of error. You can modify this function to include more detailed information or log levels.
+What will you do when 
+
+What will you do when As for `192.168.7.120`, it appears to be an IP address. Without more context, I'm not sure what this IP address is used for in your script, but you may want to check if there's any relevant code or notes that mention this IP address.
+As for `192.168.7.120`, it appears to be an IP address. Without more context, I'm not sure what this IP address is used for in your script, but you may want to check if there's any relevant code or notes that mention this IP address.
