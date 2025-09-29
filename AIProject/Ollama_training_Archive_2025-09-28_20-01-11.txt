@@ -1,0 +1,16 @@
+What will you do when **Overview**
+**Overview**
+What will you do when The script is a bridge between a remote interactive shell (using Paramiko) and an AI model (Ollama) running locally. It allows for interaction with the remote shell using suggestions from the AI.
+The script is a bridge between a remote interactive shell (using Paramiko) and an AI model (Ollama) running locally. It allows for interaction with the remote shell using suggestions from the AI.
+What will you do when 
+
+What will you do when **Components**
+**Components**
+What will you do when 
+
+What will you do when 1. **Remote Shell**: Interacts with a remote shell using Paramiko.
+1. **Remote Shell**: Interacts with a remote shell using Paramiko.
+What will you do when 2. **AI Handler**: Calls the Ollama API to generate text based on user input.
+2. **AI Handler**: Calls the Ollama API to generate text based on user input.
+What will you do when 3. **Timers**: Three repeating timers push fixed messages into a queue.
+3. **Timers**: Three repeating timers push fixed messages into a queue.
