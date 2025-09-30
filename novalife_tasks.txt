@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/run_groups.sh
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/get_brief.sh
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/quendor_brief.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/vault.sh
