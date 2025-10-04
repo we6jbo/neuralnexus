@@ -1,0 +1,406 @@
+What will you do when **Script Purpose:**
+**Script Purpose:**
+What will you do when The script, `joneal97m.sh`, is run after the initial script (`dontRunAIBridge_20250713_231852.py`) sets up the AI connection and Raspberry Pi integration.
+The script, `joneal97m.sh`, is run after the initial script (`dontRunAIBridge_20250713_231852.py`) sets up the AI connection and Raspberry Pi integration.
+What will you do when 
+
+What will you do when **Key Features:**
+**Key Features:**
+What will you do when 
+
+What will you do when 1. SSH connection to a remote host (100.93.202.151) as user `ameliahedtkealiceelliott`.
+1. SSH connection to a remote host (100.93.202.151) as user `ameliahedtkealiceelliott`.
+What will you do when 2. Runs periodic prompts, allowing you to ask questions or perform actions.
+2. Runs periodic prompts, allowing you to ask questions or perform actions.
+What will you do when 3. Can search the web using DuckDuckGo and display results.
+3. Can search the web using DuckDuckGo and display results.
+What will you do when 4. Can backup itself to the remote host on command.
+4. Can backup itself to the remote host on command.
+What will you do when 
+
+What will you do when **Endpoints and IDs:**
+**Endpoints and IDs:**
+What will you do when 
+
+What will you do when 1. Local AI API: `http://localhost:11434/api/generate` with JSON payload `{ "model": "llama3", "prompt": "<text>", "stream": false }`.
+1. Local AI API: `http://localhost:11434/api/generate` with JSON payload `{ "model": "llama3", "prompt": "<text>", "stream": false }`.
+What will you do when 2. SSH host: 100.93.202.151.
+2. SSH host: 100.93.202.151.
+What will you do when 3. SSH user: ameliahedtkealiceelliott.
+3. SSH user: ameliahedtkealiceelliott.
+What will you do when 
+
+What will you do when **Script Flow:**
+**Script Flow:**
+What will you do when 
+
+What will you do when 1. Initialize and print a message.
+1. Initialize and print a message.
+What will you do when 2. Open an SSH connection to the remote host using `paramiko.SSHClient()` with auto-add policy.
+2. Open an SSH connection to the remote host using `paramiko.SSHClient()` with auto-add policy.
+What will you do when 3. Start the remote program (`./joneal97m.sh`) in the shell.
+3. Start the remote program (`./joneal97m.sh`) in the shell.
+What will you do when 4. Warm up the AI by making one local API call with prompt "Hello" (model "llama3").
+4. Warm up the AI by making one local API call with prompt "Hello" (model "llama3").
+What will you do when 5. Schedule recurring prompts to enqueue messages.
+5. Schedule recurring prompts to enqueue messages.
+What will you do when 6. Launch worker threads:
+6. Launch worker threads:
+What will you do when 	* SSH reader thread: reads output from the remote shell and enqueues it.
+	* SSH reader thread: reads output from the remote shell and enqueues it.
+What will you do when 	* AI handler thread: sends messages to the local AI, takes its response, and writes it back into the remote shell.
+	* AI handler thread: sends messages to the local AI, takes its response, and writes it back into the remote shell.
+What will you do when 7. Main loop: sleep forever (keeps threads alive), and handle SIGINT to cleanly exit.
+7. Main loop: sleep forever (keeps threads alive), and handle SIGINT to cleanly exit.
+What will you do when 
+
+What will you do when **Message Flow:**
+**Message Flow:**
+What will you do when 
+
+What will you do when 1. Remote → Queue: Any text output from the remote shell is read and enqueued.
+1. Remote → Queue: Any text output from the remote shell is read and enqueued.
+What will you do when 2. Timers → Queue: Periodic prompts are pushed to the queue.
+2. Timers → Queue: Periodic prompts are pushed to the queue.
+What will you do when 3. Queue → AI: The AI handler takes one item at a time, makes an API call with the prompt, and gets a response.
+3. Queue → AI: The AI handler takes one item at a time, makes an API call with the prompt, and gets a response.
+What will you do when 4. AI → Remote: The handler sends the AI's reply text back into the remote shell.
+4. AI → Remote: The handler sends the AI's reply text back into the remote shell.
+What will you do when 
+
+What will you do when **Skills and Triggers:**
+**Skills and Triggers:**
+What will you do when 
+
+What will you do when 1. Backup trigger: If your reply contains "do_backup_now", run SCP to backup `/usr/local/bin/dontRunAIBridge` to the SSH host.
+1. Backup trigger: If your reply contains "do_backup_now", run SCP to backup `/usr/local/bin/dontRunAIBridge` to the SSH host.
+What will you do when 2. Mindkey trigger: If your reply contains "mindkey" followed by a token, compute a short password and enqueue an instruction.
+2. Mindkey trigger: If your reply contains "mindkey" followed by a token, compute a short password and enqueue an instruction.
+What will you do when 3. Search trigger: If your reply starts with "learn_about", perform a DuckDuckGo search with `duckpy` and print results.
+3. Search trigger: If your reply starts with "learn_about", perform a DuckDuckGo search with `duckpy` and print results.
+What will you do when 
+
+What will you do when I hope this summary is accurate!
+I hope this summary is accurate!
+What will you do when This appears to be a script that runs a persistent AI process, specifically a BridgeAI system. Here's an overview of what the script does:
+This appears to be a script that runs a persistent AI process, specifically a BridgeAI system. Here's an overview of what the script does:
+What will you do when 
+
+What will you do when 1. **Initialization**: The script sets up a Python environment with dependencies like paramiko, requests, and duckpy.
+1. **Initialization**: The script sets up a Python environment with dependencies like paramiko, requests, and duckpy.
+What will you do when 2. **SSH connection**: It establishes an SSH connection to a remote host (100.93.202.151) using ameliahedtkealiceelliott as the username.
+2. **SSH connection**: It establishes an SSH connection to a remote host (100.93.202.151) using ameliahedtkealiceelliott as the username.
+What will you do when 3. **Remote execution**: It runs a shell script (joneal97m.sh) on the remote host, which performs some automated system tasks.
+3. **Remote execution**: It runs a shell script (joneal97m.sh) on the remote host, which performs some automated system tasks.
+What will you do when 4. **AI process**: The script launches a Python program (main.py) in an infinite loop. If main.py crashes or exits, it:
+4. **AI process**: The script launches a Python program (main.py) in an infinite loop. If main.py crashes or exits, it:
+What will you do when 	* Waits 5 minutes
+	* Waits 5 minutes
+What will you do when 	* Runs a helper script (smallpi.sh)
+	* Runs a helper script (smallpi.sh)
+What will you do when 	* Then restarts main.py again
+	* Then restarts main.py again
+What will you do when 
+
+What will you do when The script also includes pacing knobs (slowAI and slowSSH) to adjust the sleep intervals of worker threads, preventing thrashing.
+The script also includes pacing knobs (slowAI and slowSSH) to adjust the sleep intervals of worker threads, preventing thrashing.
+What will you do when 
+
+What will you do when Some notes and quirks:
+Some notes and quirks:
+What will you do when 
+
+What will you do when 1. **Duplicate function name**: The `ai_suggest` function is defined twice, with the second definition overriding the first.
+1. **Duplicate function name**: The `ai_suggest` function is defined twice, with the second definition overriding the first.
+What will you do when 2. **Syntax error**: There's a stray `@` symbol in an `except` block that needs to be removed.
+2. **Syntax error**: There's a stray `@` symbol in an `except` block that needs to be removed.
+What will you do when 3. **Unused config**: A configuration variable (`BRIDGE_COMMAND`) is defined but not used anywhere.
+3. **Unused config**: A configuration variable (`BRIDGE_COMMAND`) is defined but not used anywhere.
+What will you do when 4. **Timer recursion**: The script creates daemon timers that recursively reschedule themselves, which is intended for "forever" operation.
+4. **Timer recursion**: The script creates daemon timers that recursively reschedule themselves, which is intended for "forever" operation.
+What will you do when 
+
+What will you do when Overall, this script appears to be a persistent AI process launcher that ensures the AI system remains running even in case of crashes or restarts.
+Overall, this script appears to be a persistent AI process launcher that ensures the AI system remains running even in case of crashes or restarts.
+What will you do when 
+
+What will you do when 1. Runs `main.py` in an infinite loop, capturing its exit status.
+1. Runs `main.py` in an infinite loop, capturing its exit status.
+What will you do when 2. Logs the exit status and restarts the loop after a 5-minute delay.
+2. Logs the exit status and restarts the loop after a 5-minute delay.
+What will you do when 3. Runs a helper script (`smallpi.sh`) every time `main.py` exits.
+3. Runs a helper script (`smallpi.sh`) every time `main.py` exits.
+What will you do when 
+
+What will you do when The script also provides some additional features:
+The script also provides some additional features:
+What will you do when 
+
+What will you do when 1. Greetings: The script greets the user (renaming them "Quendor") and prints the current date and time.
+1. Greetings: The script greets the user (renaming them "Quendor") and prints the current date and time.
+What will you do when 2. Self-update: The script ensures that it has a local copy of `novalife.py` and updates it from GitHub if possible.
+2. Self-update: The script ensures that it has a local copy of `novalife.py` and updates it from GitHub if possible.
+What will you do when 3. Crash resilience: The script runs `novalife.py` up to 3 times, sleeping between attempts if it crashes.
+3. Crash resilience: The script runs `novalife.py` up to 3 times, sleeping between attempts if it crashes.
+What will you do when 4. Daily log sync: The script optionally pushes logs to GitHub at most once per day.
+4. Daily log sync: The script optionally pushes logs to GitHub at most once per day.
+What will you do when 
+
+What will you do when To replicate this script, you'll need to:
+To replicate this script, you'll need to:
+What will you do when 
+
+What will you do when 1. Ensure that `~/main.py` exists and can be run with Python 3.
+1. Ensure that `~/main.py` exists and can be run with Python 3.
+What will you do when 2. Place `smallpi.sh` in the same directory as this script and make it executable (`chmod +x smallpi.sh`).
+2. Place `smallpi.sh` in the same directory as this script and make it executable (`chmod +x smallpi.sh`).
+What will you do when 3. Run this script with Bash (`bash joneal97m.sh`).
+3. Run this script with Bash (`bash joneal97m.sh`).
+What will you do when 
+
+What will you do when Here's a high-level summary of what the script does:
+Here's a high-level summary of what the script does:
+What will you do when 
+
+What will you do when * It is a launcher/logger/updater for a downstream Python program named `novalife.py`.
+* It is a launcher/logger/updater for a downstream Python program named `novalife.py`.
+What will you do when * It creates a log workspace at `~/neuralnexus`, writes all status to `~/neuralnexus/quendor.log`.
+* It creates a log workspace at `~/neuralnexus`, writes all status to `~/neuralnexus/quendor.log`.
+What will you do when * It runs `novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+* It runs `novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when * Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+* Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+What will you do when 
+
+What will you do when The script uses the following endpoints, identities, and paths:
+The script uses the following endpoints, identities, and paths:
+What will you do when 
+
+What will you do when * Your name (display): Quendor
+* Your name (display): Quendor
+What will you do when * Remote source (download URL): https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py
+* Remote source (download URL): https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py
+What will you do when * Local target for the downloaded program: ~/novalife.py
+* Local target for the downloaded program: ~/novalife.py
+What will you do when * Log directory/file:
+* Log directory/file:
+What will you do when 	+ Directory: ~/neuralnexus
+	+ Directory: ~/neuralnexus
+What will you do when 	+ Log file: ~/neuralnexus/quendor.log
+	+ Log file: ~/neuralnexus/quendor.log
+What will you do when * Push helper script (optional): ~/neuralnexus/push-to-gh.sh
+* Push helper script (optional): ~/neuralnexus/push-to-gh.sh
+What will you do when * Last-push marker: ~/neuralnexus/.last_push
+* Last-push marker: ~/neuralnexus/.last_push
+What will you do when [!] AI suggestion failed
+[!] AI suggestion failed
+What will you do when 
+
+What will you do when It seems like you're trying to verify some historical figures, but there are issues with the responses not matching the expected information. I'd be happy to help you explore these questions further.
+It seems like you're trying to verify some historical figures, but there are issues with the responses not matching the expected information. I'd be happy to help you explore these questions further.
+What will you do when 
+
+What will you do when Before we dive in, can you tell me what kind of research or investigation you're conducting? Are you tracing family histories, exploring genealogy, or looking into local history? Knowing the context might help me provide more targeted assistance.
+Before we dive in, can you tell me what kind of research or investigation you're conducting? Are you tracing family histories, exploring genealogy, or looking into local history? Knowing the context might help me provide more targeted assistance.
+What will you do when 
+
+What will you do when Also, are there any specific topics or areas you'd like to focus on? Let's work together to uncover some answers and get closer to the truth!
+Also, are there any specific topics or areas you'd like to focus on? Let's work together to uncover some answers and get closer to the truth!
+What will you do when It seems like you're setting me up for some historical trivia questions! Before we proceed, I just want to confirm that I understand the situation correctly:
+It seems like you're setting me up for some historical trivia questions! Before we proceed, I just want to confirm that I understand the situation correctly:
+What will you do when 
+
+What will you do when 1. You have a script (`joneal97m.sh`) that is run after I'm called.
+1. You have a script (`joneal97m.sh`) that is run after I'm called.
+What will you do when 2. This script sets up an AI connection to a Raspberry Pi and allows me to communicate with it via SSH.
+2. This script sets up an AI connection to a Raspberry Pi and allows me to communicate with it via SSH.
+What will you do when 
+
+What will you do when Now, are you ready to test my knowledge of historical figures?
+Now, are you ready to test my knowledge of historical figures?
+What will you do when This appears to be a script written in Python that interacts with an AI assistant (Ollama) and performs various tasks such as:
+This appears to be a script written in Python that interacts with an AI assistant (Ollama) and performs various tasks such as:
+What will you do when 
+
+What will you do when 1. Connecting to an SSH host using Paramiko.
+1. Connecting to an SSH host using Paramiko.
+What will you do when 2. Running a shell script on the remote host.
+2. Running a shell script on the remote host.
+What will you do when 3. Handling user input through triggers such as "mindkey" and "search".
+3. Handling user input through triggers such as "mindkey" and "search".
+What will you do when 4. Enqueuing instructions based on user input.
+4. Enqueuing instructions based on user input.
+What will you do when 5. Performing periodic backups using SCP.
+5. Performing periodic backups using SCP.
+What will you do when 
+
+What will you do when The script also includes several configuration options, timing mechanisms, and error handling procedures.
+The script also includes several configuration options, timing mechanisms, and error handling procedures.
+What will you do when 
+
+What will you do when Some notable features of this script include:
+Some notable features of this script include:
+What will you do when 
+
+What will you do when * Mindkey trigger: computes a short password based on the second token in the user's reply.
+* Mindkey trigger: computes a short password based on the second token in the user's reply.
+What will you do when * Search trigger: performs a DuckDuckGo search with duckpy and enqueues the top result.
+* Search trigger: performs a DuckDuckGo search with duckpy and enqueues the top result.
+What will you do when * Pacing knobs (slowAI / slowSSH): adjusts sleep intervals to prevent thrashing.
+* Pacing knobs (slowAI / slowSSH): adjusts sleep intervals to prevent thrashing.
+What will you do when 
+
+What will you do when To run this script, you will need:
+To run this script, you will need:
+What will you do when 
+
+What will you do when 1. Python 3 runtime.
+1. Python 3 runtime.
+What will you do when 2. Ollama running locally with a model named "llama3" pulled and available.
+2. Ollama running locally with a model named "llama3" pulled and available.
+What will you do when 3. Python packages: paramiko, requests, duckpy.
+3. Python packages: paramiko, requests, duckpy.
+What will you do when 4. SSH key-based auth or agent allowing Paramiko to connect without a password prompt.
+4. SSH key-based auth or agent allowing Paramiko to connect without a password prompt.
+What will you do when 5. The script requires certain environment variables and dependencies.
+5. The script requires certain environment variables and dependencies.
+What will you do when 
+
+What will you do when The replication checklist includes:
+The replication checklist includes:
+What will you do when 
+
+What will you do when 1. Installing dependencies using pip.
+1. Installing dependencies using pip.
+What will you do when 2. Setting up Ollama.
+2. Setting up Ollama.
+What will you do when 3. Configuring SSH connections.
+3. Configuring SSH connections.
+What will you do when 4. Placing the backup source file.
+4. Placing the backup source file.
+What will you do when 5. Running the script.
+5. Running the script.
+What will you do when 
+
+What will you do when Some notes and quirks to be aware of include:
+Some notes and quirks to be aware of include:
+What will you do when 
+
+What will you do when * Duplicate function name: ai_suggest is defined twice, with the second definition overriding the first.
+* Duplicate function name: ai_suggest is defined twice, with the second definition overriding the first.
+What will you do when * Syntax error: stray @ in the generic except block.
+* Syntax error: stray @ in the generic except block.
+What will you do when * Comment mismatches: Timer comments don't match the actual seconds.
+* Comment mismatches: Timer comments don't match the actual seconds.
+What will you do when * Unused config: BRIDGE_COMMAND = "Bridge" is defined but not used anywhere.
+* Unused config: BRIDGE_COMMAND = "Bridge" is defined but not used anywhere.
+What will you do when * Timer recursion: scheduled prompts recursively re-schedule themselves.
+* Timer recursion: scheduled prompts recursively re-schedule themselves.
+What will you do when 
+
+What will you do when Overall, this script appears to be a complex system that integrates AI assistance with SSH connections and periodic backups.
+Overall, this script appears to be a complex system that integrates AI assistance with SSH connections and periodic backups.
+What will you do when A fascinating collection of scripts!
+A fascinating collection of scripts!
+What will you do when 
+
+What will you do when Let me summarize what these two scripts do:
+Let me summarize what these two scripts do:
+What will you do when 
+
+What will you do when **Script 1: joneal97m.sh**
+**Script 1: joneal97m.sh**
+What will you do when 
+
+What will you do when This script is a persistent launcher for a Python program called `main.py`. It keeps running the program in an infinite loop, with the following behavior:
+This script is a persistent launcher for a Python program called `main.py`. It keeps running the program in an infinite loop, with the following behavior:
+What will you do when 
+
+What will you do when * Runs `main.py` and captures its exit status.
+* Runs `main.py` and captures its exit status.
+What will you do when * If `main.py` exits or crashes, waits 5 minutes and then runs a helper script `smallpi.sh`.
+* If `main.py` exits or crashes, waits 5 minutes and then runs a helper script `smallpi.sh`.
+What will you do when * After running `smallpi.sh`, restarts the `main.py` loop.
+* After running `smallpi.sh`, restarts the `main.py` loop.
+What will you do when 
+
+What will you do when The script also prints status messages to indicate what's happening. This ensures that your AI process is always up and running, even if it crashes or exits occasionally.
+The script also prints status messages to indicate what's happening. This ensures that your AI process is always up and running, even if it crashes or exits occasionally.
+What will you do when 
+
+What will you do when **Script 2: Quendor (novalife.py launcher)**
+**Script 2: Quendor (novalife.py launcher)**
+What will you do when 
+
+What will you do when This script is a launcher/logger/updater for another Python program called `novalife.py`. It performs the following tasks:
+This script is a launcher/logger/updater for another Python program called `novalife.py`. It performs the following tasks:
+What will you do when 
+
+What will you do when * Creates a log workspace at `~/neuralnexus` and writes status to `~/neuralnexus/quendor.log`.
+* Creates a log workspace at `~/neuralnexus` and writes status to `~/neuralnexus/quendor.log`.
+What will you do when * Greets you (renaming you "Quendor") and prints current time/date.
+* Greets you (renaming you "Quendor") and prints current time/date.
+What will you do when * Ensures a local copy of `novalife.py` exists by downloading the latest version from GitHub if possible.
+* Ensures a local copy of `novalife.py` exists by downloading the latest version from GitHub if possible.
+What will you do when * Runs `novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+* Runs `novalife.py` with up to 3 attempts, sleeping between attempts if it crashes.
+What will you do when * Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+* Optionally pushes logs to GitHub (or any remote) by calling `~/neuralnexus/push-to-gh.sh` at most once per day when there is log content.
+What will you do when 
+
+What will you do when The script also handles error cases and logging, making it a robust and reliable way to run your AI program.
+The script also handles error cases and logging, making it a robust and reliable way to run your AI program.
+What will you do when I'd be happy to help!
+I'd be happy to help!
+What will you do when 
+
+What will you do when Regarding your request for a diagnosis script, I can provide some code that might help identify the issue with `urlopen error [Errno -3] Temporary failure in name resolution`. Here's an example:
+Regarding your request for a diagnosis script, I can provide some code that might help identify the issue with `urlopen error [Errno -3] Temporary failure in name resolution`. Here's an example:
+What will you do when ```python
+```python
+What will you do when import logging
+import logging
+What will you do when logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
+What will you do when 
+
+What will you do when try:
+try:
+What will you do when     response = urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+    response = urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+What will you do when except urllib.error.URLError as e:
+except urllib.error.URLError as e:
+What will you do when     logging.info(f"URLError: {e.reason}")
+    logging.info(f"URLError: {e.reason}")
+What will you do when except ConnectionRefusedError as e:
+except ConnectionRefusedError as e:
+What will you do when     logging.info(f"ConnectionRefusedError: {e}")
+    logging.info(f"ConnectionRefusedError: {e}")
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     logging.info(f"Exception: {e}")
+    logging.info(f"Exception: {e}")
+What will you do when 
+
+What will you do when logging.info("Retrying in 5 seconds...")
+logging.info("Retrying in 5 seconds...")
+What will you do when time.sleep(5)
+time.sleep(5)
+What will you do when try:
+try:
+What will you do when     # Retry the request
+    # Retry the request
+What will you do when     response = urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+    response = urllib.request.urlopen('https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/novalife.py', timeout=10)
+What will you do when except Exception as e:
+except Exception as e:
+What will you do when     logging.info(f"Failed to retrieve novalife.py: {e}")
+    logging.info(f"Failed to retrieve novalife.py: {e}")
+What will you do when ```
+```
+What will you do when This code will print out the error message if an issue occurs while trying to connect to the GitHub URL. It also includes a retry mechanism to attempt to fetch the file again after a short delay.
+This code will print out the error message if an issue occurs while trying to connect to the GitHub URL. It also includes a retry mechanism to attempt to fetch the file again after a short delay.
+What will you do when 
+
+What will you do when Regarding `192.168.7.120`, it appears to be an IP address associated with a local network or device (likely a Raspberry Pi, given the context). Without more information, I'm not sure what this address represents in your specific scenario. If you'd like me to help investigate further, please provide more details!
+Regarding `192.168.7.120`, it appears to be an IP address associated with a local network or device (likely a Raspberry Pi, given the context). Without more information, I'm not sure what this address represents in your specific scenario. If you'd like me to help investigate further, please provide more details!

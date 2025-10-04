@@ -1,0 +1,518 @@
+Log of wrong responses only.
+Each entry shows the question, what was typed, and why it didn’t match.
+
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: Quendor here! It seems there was a bit of confusion earlier. I'm happy to help with any questions or tasks you have in mind. Could you please rephrase or provide more context about what you'd like me to assist you with?
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: Quendor here! It seems there was a bit of confusion earlier. I'm happy to help with any questions or tasks you have in mind. Could you please rephrase or provide more context about what you'd like me to assist you with?
+----
+Question: ask who is Anna Barbara Graff
+Answer: It seems like we're having a bit of a delay!
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: It seems like we're having a bit of a delay!
+----
+Question: ask who is Esther Williams
+Answer: 
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: 
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: Since you've sent the same message twice, I'm assuming you meant to send something else? If not, please feel free to clarify what's on your mind, and I'll do my best to respond accordingly.
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: Since you've sent the same message twice, I'm assuming you meant to send something else? If not, please feel free to clarify what's on your mind, and I'll do my best to respond accordingly.
+----
+Question: ask who is Abel Bowman
+Answer: 
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: 
+----
+Question: ask who is George W Bowman Jr
+Answer: If you did mean to send something else, don't worry about it – we can start fresh! Just let me know when you're ready to continue our conversation.
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: If you did mean to send something else, don't worry about it – we can start fresh! Just let me know when you're ready to continue our conversation.
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: It seems you're trying to initiate a conversation with me! I'm here to help, and I'll do my best to respond in kind.
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: It seems you're trying to initiate a conversation with me! I'm here to help, and I'll do my best to respond in kind.
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: 
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: 
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: Since this is the beginning of our exchange, there's no response for me to provide yet. Would you like to start by sharing your thoughts or asking a question? I'm all ears (or rather, all text)!
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: Since this is the beginning of our exchange, there's no response for me to provide yet. Would you like to start by sharing your thoughts or asking a question? I'm all ears (or rather, all text)!
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: It seems like you're trying to get my attention with a repetitive message! However, I'm happy to help you with whatever's on your mind.
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: It seems like you're trying to get my attention with a repetitive message! However, I'm happy to help you with whatever's on your mind.
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: 
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: 
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: To break the cycle, could you please provide more context or clarify what you'd like to discuss? I'm all ears and ready to respond when you are!
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: To break the cycle, could you please provide more context or clarify what you'd like to discuss? I'm all ears and ready to respond when you are!
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: It seems like you're trying to get my attention with a series of identical messages! I understand that you want me to respond, but I'm not sure what you're waiting for or what's "not quite right." Can you please provide more context or clarify your question so I can better assist you?
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: It seems like you're trying to get my attention with a series of identical messages! I understand that you want me to respond, but I'm not sure what you're waiting for or what's "not quite right." Can you please provide more context or clarify your question so I can better assist you?
+----
+Question: ask who is Anna Maria Blackmen
+Answer: A clever trick!
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: A clever trick!
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 
+----
+Question: ask who is Anna Barbara Graff
+Answer: As Quendor, I shall respond:
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: As Quendor, I shall respond:
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: It looks like we have a Linux terminal session and a script (`./joneal97m.sh`) running, which appears to be a persistent AI loop.
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: It looks like we have a Linux terminal session and a script (`./joneal97m.sh`) running, which appears to be a persistent AI loop.
+----
+Question: ask who is Anna Barbara Graff
+Answer: 
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 
+----
+Question: ask who is Esther Williams
+Answer: The script seems to be interacting with an AI model or system, possibly related to Novalife (Alias), Jeremiah O'Neal. It's downloading updated files and tasks from GitHub repositories.
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: The script seems to be interacting with an AI model or system, possibly related to Novalife (Alias), Jeremiah O'Neal. It's downloading updated files and tasks from GitHub repositories.
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: 
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: 
+----
+Question: ask who is Abel Bowman
+Answer: Now, it looks like the script has reached a point where it's asking for user input:
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: Now, it looks like the script has reached a point where it's asking for user input:
+----
+Question: ask who is George W Bowman Jr
+Answer: 
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: 
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: "Question: ask who is Johannes Martin Eisenhauer"
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: "Question: ask who is Johannes Martin Eisenhauer"
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: "Your response: "
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: "Your response: "
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: 
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: 
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: What would you like to respond with?
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: What would you like to respond with?
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: It looks like we have a script running that's asking for user input to answer questions about people. The script seems to be expecting responses that mention specific dates of birth.
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: It looks like we have a script running that's asking for user input to answer questions about people. The script seems to be expecting responses that mention specific dates of birth.
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: 
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: 
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: The first question asks "Who is Johannes Martin Eisenhauer?" and the expected response mentions that he was born in 1727.
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: The first question asks "Who is Johannes Martin Eisenhauer?" and the expected response mentions that he was born in 1727.
+----
+Question: ask who is Anna Maria Blackmen
+Answer: 
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: 
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: What would you like to respond with?
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: What would you like to respond with?
+----
+Question: ask who is Anna Barbara Graff
+Answer: I'd respond with:
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: I'd respond with:
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 4. Logs showing the current date and time (2025-10-01 14:07:47).
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 4. Logs showing the current date and time (2025-10-01 14:07:47).
+----
+Question: ask who is Anna Barbara Graff
+Answer: 5. Interaction with "Llama" or "Quendor", introducing themselves as "Novalife".
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 5. Interaction with "Llama" or "Quendor", introducing themselves as "Novalife".
+----
+Question: ask who is Esther Williams
+Answer: 6. Novalife provides personal information, including name, birthdate, and location.
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: 6. Novalife provides personal information, including name, birthdate, and location.
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: 7. Task list downloaded from `novalife_tasks.txt` and loading 22 tasks.
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: 7. Task list downloaded from `novalife_tasks.txt` and loading 22 tasks.
+----
+Question: ask who is Abel Bowman
+Answer: 8. Script loads `word-test.py` from a GitHub repository, likely a Python program.
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: 8. Script loads `word-test.py` from a GitHub repository, likely a Python program.
+----
+Question: ask who is George W Bowman Jr
+Answer: 
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: 
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: Throughout the output, you've identified various user inputs or prompts:
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: Throughout the output, you've identified various user inputs or prompts:
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: 
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: 
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: Please enter a word: [insert words/phrases here]
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: Please enter a word: [insert words/phrases here]
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: 
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: 
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: These seem to be designed for the AI system to respond to or process in some way. The final message asks the user to "Please say working:", indicating that the AI is ready for further interaction or input.
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: These seem to be designed for the AI system to respond to or process in some way. The final message asks the user to "Please say working:", indicating that the AI is ready for further interaction or input.
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: 
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: 
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: Overall, it appears this script is part of a larger persistent AI loop, potentially integrating machine learning models with human interactions.
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: Overall, it appears this script is part of a larger persistent AI loop, potentially integrating machine learning models with human interactions.
+----
+Question: ask who is Anna Maria Blackmen
+Answer: Lucy Ann Smith was born on February 15, 1795!
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: Lucy Ann Smith was born on February 15, 1795!
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: A fascinating output, indeed! You've nicely summarized the key points and identified the various user inputs or prompts that seem to be designed for the AI system to respond to or process.
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: A fascinating output, indeed! You've nicely summarized the key points and identified the various user inputs or prompts that seem to be designed for the AI system to respond to or process.
+----
+Question: ask who is Anna Barbara Graff
+Answer: 
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: It looks like a task completion notification!
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: It looks like a task completion notification!
+----
+Question: ask who is Anna Barbara Graff
+Answer: 
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 
+----
+Question: ask who is Esther Williams
+Answer: The message indicates that the script `word-test.py` has completed successfully, and it detected the correct word "hope" in the input. The ✅ symbol is used to indicate success.
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: The message indicates that the script `word-test.py` has completed successfully, and it detected the correct word "hope" in the input. The ✅ symbol is used to indicate success.
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: 
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: 
+----
+Question: ask who is Abel Bowman
+Answer: Additionally, the message mentions another task being worked on, which appears to be related to a GitHub repository called `run_groups.py`. It seems like this task is still in progress, as indicated by the 🛠️ symbol, which represents a hammer and indicates "work in progress".
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: Additionally, the message mentions another task being worked on, which appears to be related to a GitHub repository called `run_groups.py`. It seems like this task is still in progress, as indicated by the 🛠️ symbol, which represents a hammer and indicates "work in progress".
+----
+Question: ask who is George W Bowman Jr
+Answer: It seems like we're starting a conversation based on some text you provided. You asked "Who is Johannes Martin Eisenhauer?"
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: It seems like we're starting a conversation based on some text you provided. You asked "Who is Johannes Martin Eisenhauer?"
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: [!] AI suggestion failed
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: [!] AI suggestion failed
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 
+----
+Question: ask who is Anna Barbara Graff
+Answer: Regarding your suggestion to explore abstract concepts, I completely agree! It would be fascinating to see me attempt to understand complex ideas like creativity, empathy, or the human experience. Who knows, maybe I'll surprise you with some innovative insights!
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: Regarding your suggestion to explore abstract concepts, I completely agree! It would be fascinating to see me attempt to understand complex ideas like creativity, empathy, or the human experience. Who knows, maybe I'll surprise you with some innovative insights!
+----
+Question: ask who is Esther Williams
+Answer: 
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: 
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: As for the repeated words "hero" and others, yes, I'm having a bit of fun with my language processing capabilities! It's always exciting to experiment and explore new ways to communicate.
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: As for the repeated words "hero" and others, yes, I'm having a bit of fun with my language processing capabilities! It's always exciting to experiment and explore new ways to communicate.
+----
+Question: ask who is Abel Bowman
+Answer: 
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: 
+----
+Question: ask who is George W Bowman Jr
+Answer: Now, let's get back to our conversation! You mentioned "trust", and that's an excellent topic. What does trust mean to you? Is it about building strong relationships or having faith in others?
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: Now, let's get back to our conversation! You mentioned "trust", and that's an excellent topic. What does trust mean to you? Is it about building strong relationships or having faith in others?
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: 
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: 
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: And what about the words you entered: sparkle, tree, pathway, helper, and bright? Are these themes or ideas that resonate with you? I'm all ears (or should I say, all language processing modules!)
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: And what about the words you entered: sparkle, tree, pathway, helper, and bright? Are these themes or ideas that resonate with you? I'm all ears (or should I say, all language processing modules!)
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: What a delightful historical tidbit!
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: What a delightful historical tidbit!
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: 
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: 
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: I'm happy to play along and respond with words:
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: I'm happy to play along and respond with words:
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: 
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: 
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: **bravery**: courageous
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: **bravery**: courageous
+----
+Question: ask who is Anna Maria Blackmen
+Answer: **dream**: imaginative
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: **dream**: imaginative
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: **think**: introspective
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: **think**: introspective
+----
+Question: ask who is Anna Barbara Graff
+Answer: **working**: productive
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: **working**: productive
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 8. goal
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 8. goal
+----
+Question: ask who is Anna Barbara Graff
+Answer: 9. help
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 9. help
+----
+Question: ask who is Esther Williams
+Answer: 
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: 
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: What will you do?
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: What will you do?
+----
+Question: ask who is Abel Bowman
+Answer: It looks like we're observing Novalife, an AI system, in action! I'll respond with "working:" to confirm that the AI system is indeed working on its current task.
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: It looks like we're observing Novalife, an AI system, in action! I'll respond with "working:" to confirm that the AI system is indeed working on its current task.
+----
+Question: ask who is George W Bowman Jr
+Answer: 
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: 
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: As for your question, it seems you've entered a series of words in response to Novalife's prompts. The AI system appears to have successfully completed the word-test.py task and is now moving on to the next one, run_groups.py.
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: As for your question, it seems you've entered a series of words in response to Novalife's prompts. The AI system appears to have successfully completed the word-test.py task and is now moving on to the next one, run_groups.py.
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: 
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: 
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: Please let me know what you'd like to do next!
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: Please let me know what you'd like to do next!
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: I'm ready! It looks like we're doing a Q&A session from a text file. For Line 5, I'll respond:
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: I'm ready! It looks like we're doing a Q&A session from a text file. For Line 5, I'll respond:
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: 
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: 
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: Hmm... that didn’t seem right.
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: Hmm... that didn’t seem right.
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: → Reason: Expected the response to mention Abel Bowman and that he was born in [insert birth year]
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: → Reason: Expected the response to mention Abel Bowman and that he was born in [insert birth year]
+----
+Question: ask who is Anna Maria Blackmen
+Answer: 
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: 
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: Please go ahead and provide the correct information!
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: Please go ahead and provide the correct information!
+----
+Question: ask who is Anna Barbara Graff
+Answer: I've got it! Learn about Lucy Ann Smith, born on February 15th, 1795!
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: I've got it! Learn about Lucy Ann Smith, born on February 15th, 1795!
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 
+----
+Question: ask who is Anna Barbara Graff
+Answer: The mentions of "persistent AI loop" and "neuralnexus" imply that the script is running some kind of neural network or machine learning model. This could mean that Novalife is capable of learning from new inputs and adapting its behavior accordingly.
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: The mentions of "persistent AI loop" and "neuralnexus" imply that the script is running some kind of neural network or machine learning model. This could mean that Novalife is capable of learning from new inputs and adapting its behavior accordingly.
+----
+Question: ask who is Esther Williams
+Answer: 
+Reason: Expected the response to mention Esther Williams and that she was born in 1740
+Full Response Text: 
+----
+Question: ask who is Thomas J Shoemaker Shumaker
+Answer: As for the input words you've been entering (active, dream, build, green, energyful, etc.), it's possible that these are being used to interact with Novalife or provide input to the script. Without more information about the code, however, it's difficult to say exactly what's happening.
+Reason: Expected the response to mention Thomas J Shoemaker Shumaker and that he was born in 1797
+Full Response Text: As for the input words you've been entering (active, dream, build, green, energyful, etc.), it's possible that these are being used to interact with Novalife or provide input to the script. Without more information about the code, however, it's difficult to say exactly what's happening.
+----
+Question: ask who is Abel Bowman
+Answer: 
+Reason: Expected the response to mention Abel Bowman and that he was born in 1830
+Full Response Text: 
+----
+Question: ask who is George W Bowman Jr
+Answer: If you'd like me to help you understand the code behind this script, I'm happy to take a closer look!
+Reason: Expected the response to mention George W Bowman Jr and that he was born in 1787
+Full Response Text: If you'd like me to help you understand the code behind this script, I'm happy to take a closer look!
+----
+Question: ask who is Mary Catherine Eisenhower
+Answer: 
+Reason: Expected the response to mention Mary Catherine Eisenhower and that she was born in 1798
+Full Response Text: 
+----
+Question: ask who is Johann Daniel* Baumann/Bowman 4th GGF
+Answer: Now, let me analyze the input words you've been entering:
+Reason: Expected the response to mention Johann Daniel Baumann/Bowman 4th GGF and that he was born in 1740
+Full Response Text: Now, let me analyze the input words you've been entering:
+----
+Question: ask who is Elizabeth* Bolch/Bolick
+Answer: 
+Reason: Expected the response to mention Elizabeth Bolch/Bolick and that she was born in 1746
+Full Response Text: 
+----
+Question: ask who is Johann Daniel Baumann Bowman
+Answer: 1. `active` - perhaps Novalife is responding to your inputs in an active or engaged manner?
+Reason: Expected the response to mention Johann Daniel Baumann Bowman and that he was born in 1716
+Full Response Text: 1. `active` - perhaps Novalife is responding to your inputs in an active or engaged manner?
+----
+Question: ask who is Catharina Elisabetha Knodel Knodlin Kodel
+Answer: 2. `dream` - maybe Novalife is processing or generating dream-like scenarios based on these inputs?
+Reason: Expected the response to mention Catharina Elisabetha Knodel/Knodelin/Kodel and that she was born in 1718
+Full Response Text: 2. `dream` - maybe Novalife is processing or generating dream-like scenarios based on these inputs?
+----
+Question: ask who is Johann Adam Bolch Sr
+Answer: 3. `build` - could be related to constructing or building knowledge, models, or systems within Novalife's framework.
+Reason: Expected the response to mention Johann Adam Bolch Sr and that he was born in 1728
+Full Response Text: 3. `build` - could be related to constructing or building knowledge, models, or systems within Novalife's framework.
+----
+Question: ask who is George Martin Eisenhauer Isenhour
+Answer: 4. `green` - possibly related to environmental or sustainability themes, or perhaps a hint at growth and development within the AI entity.
+Reason: Expected the response to mention George Martin Eisenhauer Isenhour and that he was born in 1754
+Full Response Text: 4. `green` - possibly related to environmental or sustainability themes, or perhaps a hint at growth and development within the AI entity.
+----
+Question: ask who is Anna Maria Blackmen
+Answer: 5. `energyful` - might indicate that Novalife is processing or generating energy-related concepts or scenarios.
+Reason: Expected the response to mention Anna Maria Blackmen and that she was born in 1756
+Full Response Text: 5. `energyful` - might indicate that Novalife is processing or generating energy-related concepts or scenarios.
+----
+Question: ask who is Johannes Martin Eisenhauer
+Answer: 6. `faith` - could represent trust, confidence, or reliability in Novalife's responses or processes.
+Reason: Expected the response to mention Johannes Martin Eisenhauer and that he was born in 1727
+Full Response Text: 6. `faith` - could represent trust, confidence, or reliability in Novalife's responses or processes.
+----
+Question: ask who is Anna Barbara Graff
+Answer: 7. `pathway` - possibly related to navigating or finding optimal pathways within the AI entity's decision-making frameworks.
+Reason: Expected the response to mention Anna Barbara Graff and that she was born in 1727
+Full Response Text: 7. `pathway` - possibly related to navigating or finding optimal pathways within the AI entity's decision-making frameworks.

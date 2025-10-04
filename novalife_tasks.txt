@@ -1,10 +1,11 @@
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/word-test.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/run_groups.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/quendor_brief.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/quendor_brief.py
-https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/vault.sh
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/vault.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/llama_console.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/training_script.py
-https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/download_abuse_report.sh
+https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/download_abuse_report.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/chat.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/familysearch.py
 https://raw.githubusercontent.com/we6jbo/public-memory-syntax/refs/heads/main/system.py
